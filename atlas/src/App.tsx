@@ -115,6 +115,9 @@ export default function App() {
   const [showWelcome, setShowWelcome] = useState(false)
   const [showForum, setShowForum] = useState(false)
 
+  // Mobile active view: 'chat' | 'graph' | 'panel'
+  const [mobileView, setMobileView] = useState<'chat' | 'graph' | 'panel'>('graph')
+
   const originalGraphRef = useRef<{ nodes: any[]; links: any[] } | null>(null)
   const abortReplayRef = useRef(false)
 
@@ -588,6 +591,7 @@ export default function App() {
       setSelectedDisease(node)
       setActiveTab('community')
       setPanelOpen(true)
+      setMobileView('panel')
     }
   }
 
@@ -599,6 +603,7 @@ export default function App() {
       setEvidence(null)
       setActiveTab('community')
       setPanelOpen(true)
+      setMobileView('panel')
     }
   }
 
@@ -608,6 +613,7 @@ export default function App() {
     setEvidence(l)
     setActiveTab('evidence')
     setPanelOpen(true)
+    setMobileView('panel')
   }
 
   const selectedDiseaseGaps = selectedDisease
@@ -710,24 +716,26 @@ export default function App() {
         </div>
       </header>
 
-      {/* 2. App Body: 3-column desktop layout */}
-      <div className="app-body">
+      {/* 2. App Body */}
+      <div className={`app-body mobile-view-${mobileView}`}>
         {/* Left: Ziva Chat */}
-        <ZivaChat
-          lang={lang}
-          t={t}
-          mood={mood}
-          messages={messages}
-          busy={busy}
-          isReplaying={isReplaying}
-          onSend={handleAsk}
-          onStop={handleStop}
-          onSuggestionClick={handleAsk}
-          onWatchDemo={playDemo}
-        />
+        <div className={`ziva-col-wrapper ${mobileView === 'chat' ? 'mobile-active' : ''}`}>
+          <ZivaChat
+            lang={lang}
+            t={t}
+            mood={mood}
+            messages={messages}
+            busy={busy}
+            isReplaying={isReplaying}
+            onSend={handleAsk}
+            onStop={handleStop}
+            onSuggestionClick={handleAsk}
+            onWatchDemo={playDemo}
+          />
+        </div>
 
         {/* Center: 3D Graph */}
-        <main className="graph-col">
+        <main className={`graph-col ${mobileView === 'graph' ? 'mobile-active' : ''}`}>
           {graph ? (
             <>
               <div className="graph-top-overlay">
@@ -753,24 +761,60 @@ export default function App() {
         </main>
 
         {/* Right: Side Panel (Evidence, Community, Missing, Review) */}
-        {panelOpen && (
-          <SidePanel
-            t={t}
-            activeTab={activeTab}
-            onTabChange={setActiveTab}
-            onClose={() => setPanelOpen(false)}
-            evidence={evidence}
-            selectedDisease={selectedDisease}
-            diseaseGaps={selectedDiseaseGaps}
-            allGaps={gapsData}
-            allNodes={graph?.nodes || []}
-            allLinks={graph?.links || []}
-            reviewQueueData={reviewQueueData}
-            onReplayDee69={() => replayRun('dee69', true)}
-            activeRole={role}
-          />
+        {(panelOpen || mobileView === 'panel') && (
+          <div className={`side-panel-wrapper ${mobileView === 'panel' ? 'mobile-active' : ''}`}>
+            <SidePanel
+              t={t}
+              activeTab={activeTab}
+              onTabChange={setActiveTab}
+              onClose={() => {
+                setPanelOpen(false)
+                if (mobileView === 'panel') setMobileView('graph')
+              }}
+              evidence={evidence}
+              selectedDisease={selectedDisease}
+              diseaseGaps={selectedDiseaseGaps}
+              allGaps={gapsData}
+              allNodes={graph?.nodes || []}
+              allLinks={graph?.links || []}
+              reviewQueueData={reviewQueueData}
+              onReplayDee69={() => replayRun('dee69', true)}
+              activeRole={role}
+            />
+          </div>
         )}
       </div>
+
+      {/* Mobile Bottom Navigation Bar */}
+      <nav className="mobile-bottom-nav">
+        <button
+          type="button"
+          className={`mobile-nav-btn ${mobileView === 'chat' ? 'active' : ''}`}
+          onClick={() => setMobileView('chat')}
+        >
+          <span className="mobile-nav-icon">🤖</span>
+          <span className="mobile-nav-label">Ziva</span>
+        </button>
+        <button
+          type="button"
+          className={`mobile-nav-btn ${mobileView === 'graph' ? 'active' : ''}`}
+          onClick={() => setMobileView('graph')}
+        >
+          <span className="mobile-nav-icon">🌐</span>
+          <span className="mobile-nav-label">{lang === 'es' ? 'Grafo 3D' : '3D Graph'}</span>
+        </button>
+        <button
+          type="button"
+          className={`mobile-nav-btn ${mobileView === 'panel' ? 'active' : ''}`}
+          onClick={() => {
+            setPanelOpen(true)
+            setMobileView('panel')
+          }}
+        >
+          <span className="mobile-nav-icon">📋</span>
+          <span className="mobile-nav-label">{lang === 'es' ? 'Evidencia' : 'Evidence'}</span>
+        </button>
+      </nav>
 
       {/* 3. Welcome / Onboarding Modal */}
       {showWelcome && (
