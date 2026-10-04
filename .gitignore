@@ -1,11 +1,39 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Production builds
 dist/
+build/
+out/
+
+# Environment and secrets (CRITICAL: never commit API keys)
 .env
 .env.*
 !.env.example
+
+# Python caches and virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Data caches & scratch
 data/.cache/
+atlas/eval/ask_eval_out.json
 *.bak
 *.bak-*
 *.pre-audit
-__pycache__/
-atlas/eval/ask_eval_out.json
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
