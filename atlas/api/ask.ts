@@ -21,7 +21,9 @@ Rules:
 - mechanism_warning: if the subgraph shows different mechanisms (e.g. loss-of-function vs gain-of-function) for diseases in the question, explain in one sentence why a therapy for one may not help or may harm the other. Otherwise return an empty string.
 - If a link has contradictions, say so.
 - If the subgraph does not support an answer, status "no_route": explain what was searched and what evidence is missing.
-- Plain words, short sentences. Answer in the same language as the QUESTION.`
+- Plain words, short sentences. Answer in the same language as the QUESTION.
+- Never recommend, suggest, rank or compare treatments, doses or medication changes, and never interpret a person's test results. You may say which treatments appear in the subgraph and what their links state, with their evidence status, then add that treatment decisions belong to the family's physician.
+- next_step must never be to start, stop, switch or try a medication; point to a clinician, a patient group, a registry, a study or an expert review instead.`
 
 const ROLE_PROMPTS: Record<Role, string> = {
   family: `ROLE: family (Devon, newly diagnosed family).
@@ -174,6 +176,7 @@ if (argv1 && import.meta.url.endsWith(argv1.replace(/\\/g, '/'))) {
   // role self-check
   console.assert(ROLES.includes('family') && ROLES.includes('organization') && ROLES.includes('researcher'), 'valid roles exist')
   console.assert(getSystemPrompt('family').includes('ROLE: family'), 'system prompt contains role family')
+  console.assert(getSystemPrompt('family').includes('Never recommend'), 'system prompt contains brand treatment rule')
   console.assert(getSystemPrompt('researcher').includes('ALWAYS include the subgraph IDs'), 'system prompt contains researcher rules')
   console.log('OK')
 }

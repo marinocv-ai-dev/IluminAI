@@ -124,13 +124,13 @@ export const i18n: Record<Lang, TranslationDict> = {
       watchDemo: '▶ Watch demo',
       runAgent: '▶ Run agent: DEE69',
       reviewQueue: 'Review queue',
-      communityPreview: 'Community (preview)',
+      communityPreview: 'Community (demo)',
       more: '⋯ More',
       reset: 'Reset',
       stop: 'Stop',
     },
     forum: {
-      banner: 'Design preview · Illustrative posts. These are not real users, organizations or medical claims. The community space is in development.',
+      banner: 'DEMO · Illustrative posts to show how the community space will work. Not real people, organizations or medical claims.',
       notSavedNote: 'Posts are not saved in this preview.',
     },
     ziva: {
@@ -235,13 +235,13 @@ export const i18n: Record<Lang, TranslationDict> = {
       watchDemo: '▶ Ver demo',
       runAgent: '▶ Ejecutar agente: DEE69',
       reviewQueue: 'Cola de revisión',
-      communityPreview: 'Comunidad (vista previa)',
+      communityPreview: 'Comunidad (demo)',
       more: '⋯ Más',
       reset: 'Reiniciar',
       stop: 'Detener',
     },
     forum: {
-      banner: 'Vista previa de diseño · Publicaciones ilustrativas. No son usuarios, organizaciones ni afirmaciones médicas reales. El espacio comunitario está en desarrollo.',
+      banner: 'DEMO · Publicaciones ilustrativas para mostrar cómo funcionará el espacio comunitario. No son personas, organizaciones ni afirmaciones médicas reales.',
       notSavedNote: 'Las publicaciones no se guardan en esta vista previa.',
     },
     ziva: {

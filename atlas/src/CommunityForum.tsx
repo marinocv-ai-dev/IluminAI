@@ -27,14 +27,14 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeLabel: 'Episodic Ataxia Type 2',
     nodeType: 'disease',
     title: 'How can newly diagnosed families connect with EA2 support networks?',
-    author: 'A parent (example)',
+    author: 'A parent (demo)',
     role: 'family',
     date: 'Yesterday',
     content: 'We received our genetic test result for CACNA1A. Where can we find peer support groups or registered registries for episodic ataxia type 2?',
     answersCount: 1,
     replies: [
       {
-        author: 'A patient organization (example)',
+        author: 'A patient organization (demo)',
         role: 'organization',
         text: 'You can check the Community tab on this disease node in the atlas to find verified patient foundations and active natural history registries.',
         date: '12h ago',
@@ -47,16 +47,16 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeLabel: 'Developmental And Epileptic Encephalopathy 69',
     nodeType: 'disease',
     title: 'Are there shared registries for CACNA1E families?',
-    author: 'A parent (example)',
+    author: 'A parent (demo)',
     role: 'family',
     date: '2 days ago',
     content: 'Our doctor mentioned CACNA1E is newly characterized. Are patient organizations organizing contact lists or registries for upcoming studies?',
     answersCount: 1,
     replies: [
       {
-        author: 'A patient organization (example)',
+        author: 'A patient organization (demo)',
         role: 'organization',
-        text: 'Yes, international family advocacy groups coordinate voluntary contact lists. Inspect the Community tab to see registered initiatives.',
+        text: 'Open the Community tab on this disease to see the patient groups linked in the atlas, each with its source.',
         date: '1 day ago',
       },
     ],
@@ -67,14 +67,14 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeLabel: 'Gain of Function',
     nodeType: 'mechanism',
     title: 'Collaborative interest in functional assays for CACNA1A VUS?',
-    author: 'A researcher (example)',
+    author: 'A researcher (demo)',
     role: 'researcher',
     date: '3 days ago',
     content: 'We are mapping patch-clamp experimental workflows to distinguish loss versus gain of function in uncharacterized variants. Looking for academic labs interested in protocol alignment.',
     answersCount: 1,
     replies: [
       {
-        author: 'A researcher (example)',
+        author: 'A researcher (demo)',
         role: 'researcher',
         text: 'We are compiling variant electrophysiology protocols. We recommend checking the Gain of Function node links in the graph for connected literature.',
         date: '2 days ago',
@@ -82,6 +82,28 @@ const SAMPLE_POSTS: ForumPost[] = [
     ],
   },
 ]
+
+const DemoBadge: React.FC = () => (
+  <span
+    aria-label="Demo content"
+    style={{
+      background: '#F2B134',
+      color: '#0A2E4E',
+      fontSize: '10.5px',
+      fontWeight: 800,
+      textTransform: 'uppercase',
+      padding: '2px 5px',
+      borderRadius: '4px',
+      display: 'inline-flex',
+      alignItems: 'center',
+      lineHeight: 1,
+      marginLeft: '6px',
+      letterSpacing: '0.04em',
+    }}
+  >
+    DEMO
+  </span>
+)
 
 interface CommunityForumProps {
   lang: Lang
@@ -108,10 +130,10 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
     if (!newComment.trim()) return
     const authorName =
       activeRole === 'family'
-        ? 'Family Member'
+        ? 'Family Member (demo)'
         : activeRole === 'researcher'
-        ? 'Clinical Specialist'
-        : 'Foundation Coordinator'
+        ? 'Clinical Specialist (demo)'
+        : 'Foundation Coordinator (demo)'
 
     const updated = posts.map((p) => {
       if (p.id === postId) {
@@ -171,8 +193,8 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
           <span>⚠</span>
           <span>
             {lang === 'es'
-              ? 'Vista previa de diseño · Publicaciones ilustrativas. No son usuarios, organizaciones ni afirmaciones médicas reales. El espacio comunitario está en desarrollo.'
-              : 'Design preview · Illustrative posts. These are not real users, organizations or medical claims. The community space is in development.'}
+              ? 'DEMO · Publicaciones ilustrativas para mostrar cómo funcionará el espacio comunitario. No son personas, organizaciones ni afirmaciones médicas reales.'
+              : 'DEMO · Illustrative posts to show how the community space will work. Not real people, organizations or medical claims.'}
           </span>
         </div>
 
@@ -249,8 +271,11 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                     {p.content}
                   </p>
 
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 8, fontSize: 11, color: '#64748b' }}>
-                    <span>By: {p.author}</span>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: 8, fontSize: 11, color: '#64748b', alignItems: 'center' }}>
+                    <span style={{ display: 'inline-flex', alignItems: 'center' }}>
+                      By: {p.author}
+                      <DemoBadge />
+                    </span>
                     <span style={{ fontWeight: 600, color: 'var(--blue)' }}>💬 {p.answersCount} {lang === 'es' ? 'respuestas' : 'replies'}</span>
                   </div>
                 </div>
@@ -280,8 +305,10 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                   <h3 style={{ margin: '0 0 6px', fontSize: 17, color: 'var(--navy)' }}>
                     {selectedPost.title}
                   </h3>
-                  <div style={{ fontSize: 11.5, color: '#64748b', marginBottom: 8 }}>
-                    Posted by <b>{selectedPost.author}</b> · {selectedPost.date}
+                  <div style={{ fontSize: 11.5, color: '#64748b', marginBottom: 8, display: 'flex', alignItems: 'center' }}>
+                    <span>Posted by <b>{selectedPost.author}</b></span>
+                    <DemoBadge />
+                    <span style={{ marginLeft: 6 }}>· {selectedPost.date}</span>
                   </div>
                   <p style={{ fontSize: 13, color: 'var(--navy)', lineHeight: 1.5, margin: 0 }}>
                     {selectedPost.content}
@@ -301,8 +328,9 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                       }}
                     >
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-                        <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--navy)' }}>
+                        <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--navy)', display: 'inline-flex', alignItems: 'center' }}>
                           👤 {rep.author}
+                          <DemoBadge />
                           <span style={{ fontSize: 10, fontWeight: 500, color: '#64748b', marginLeft: 6 }}>
                             ({rep.role})
                           </span>
@@ -421,7 +449,7 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                         nodeLabel: newTopicNode.includes('618285') ? 'DEE69' : 'CACNA1A/EA2',
                         nodeType: 'disease',
                         title: newTopicTitle.trim(),
-                        author: activeRole === 'family' ? 'Family Voice' : 'Healthcare Professional',
+                        author: activeRole === 'family' ? 'Family Voice (demo)' : 'Healthcare Professional (demo)',
                         role: activeRole,
                         date: 'Just now',
                         content: newTopicBody.trim(),

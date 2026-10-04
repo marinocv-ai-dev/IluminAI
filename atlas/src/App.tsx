@@ -1006,7 +1006,7 @@ export default function App() {
           lang={lang}
           activeRole={role}
           onClose={() => setShowForum(false)}
-          onFocusGraphNode={(nodeId) => {
+          onFocusGraphNode={(nodeId: string) => {
             const found = graph?.nodes.find((n) => n.id === nodeId)
             if (found) handleFindSelect(found)
             setShowForum(false)
