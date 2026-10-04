@@ -1,0 +1,9 @@
+# Ignorar carpetas pesadas y ajenas al deploy web en Vercel
+Front v2/
+Scrapper/
+scripts/
+data/cache/
+docs/
+*.md
+*.pdf
+*.db
