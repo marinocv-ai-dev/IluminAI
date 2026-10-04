@@ -26,11 +26,13 @@ const CONTRADICTION = '#F2B134'     // only off-palette color: a semantic alert,
 const PENDING_COLOR = '#F2B134'
 const idOf = (x: any) => (typeof x === 'object' ? x.id : x)
 
-export default function Graph3D({ data, highlight, onNodeClick, onLinkClick }: {
+export default function Graph3D({ data, highlight, onNodeClick, onLinkClick, width, height }: {
   data: { nodes: any[]; links: any[] }
   highlight: Highlight
   onNodeClick?: (n: any) => void
   onLinkClick?: (l: any) => void
+  width?: number
+  height?: number
 }) {
   const fg = useRef<any>(null)
   const fitted = useRef(false)
@@ -107,6 +109,8 @@ export default function Graph3D({ data, highlight, onNodeClick, onLinkClick }: {
     <ForceGraph3D
       ref={fg}
       graphData={graphData}
+      width={width}
+      height={height}
       backgroundColor={BRAND.navy}
       nodeVal={n => (n.id === highlight.focus ? 10 : 2) + (degree[n.id] ?? 0)}
       nodeColor={nodeColor}

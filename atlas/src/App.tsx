@@ -111,12 +111,18 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<SideTab>('evidence')
   const [panelOpen, setPanelOpen] = useState(false)
 
-  // Modals
+  // Modals & Menus
   const [showWelcome, setShowWelcome] = useState(false)
   const [showForum, setShowForum] = useState(false)
+  const [moreMenuOpen, setMoreMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   // Mobile active view: 'chat' | 'graph' | 'panel'
   const [mobileView, setMobileView] = useState<'chat' | 'graph' | 'panel'>('graph')
+
+  // Graph column dimensions
+  const graphColRef = useRef<HTMLElement | null>(null)
+  const [graphDims, setGraphDims] = useState<{ width: number; height: number }>({ width: 0, height: 0 })
 
   const originalGraphRef = useRef<{ nodes: any[]; links: any[] } | null>(null)
   const abortReplayRef = useRef(false)
@@ -125,6 +131,21 @@ export default function App() {
     setLang(newLang)
     localStorage.setItem('iluminai_lang', newLang)
   }
+
+  // ResizeObserver for graph dimensions (P5)
+  useEffect(() => {
+    if (!graphColRef.current) return
+    const ro = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        const { width, height } = entry.contentRect
+        if (width > 0 && height > 0) {
+          setGraphDims({ width: Math.round(width), height: Math.round(height) })
+        }
+      }
+    })
+    ro.observe(graphColRef.current)
+    return () => ro.disconnect()
+  }, [])
 
   // Initial greeting 2s -> ready
   useEffect(() => {
@@ -634,8 +655,8 @@ export default function App() {
         <div className="topbar-right-controls">
           <span className="traceable-sources-pill">● {t.traceableSources}</span>
 
-          {/* Role Segmented Control */}
-          <div className="role-segmented-control">
+          {/* Desktop Role Segmented Control */}
+          <div className="role-segmented-control desktop-only-control">
             <button
               type="button"
               className={`role-segment-btn ${role === 'family' ? 'active' : ''}`}
@@ -659,62 +680,212 @@ export default function App() {
             </button>
           </div>
 
+          {/* Mobile Role Compact Selector */}
+          <select
+            className="mobile-role-select"
+            value={role}
+            onChange={(e) => setRole(e.target.value as any)}
+            aria-label="Select role"
+          >
+            <option value="family">{t.roles.family}</option>
+            <option value="organization">{t.roles.organization}</option>
+            <option value="researcher">{t.roles.researcher}</option>
+          </select>
+
           {/* Language Switch */}
           <button
             type="button"
-            className="lang-switch-btn"
+            className="lang-switch-btn desktop-only-control"
             onClick={() => handleLangChange(lang === 'en' ? 'es' : 'en')}
             title="Switch Language"
           >
             {lang === 'en' ? 'ES' : 'EN'}
           </button>
 
-          {/* Action Menu Buttons */}
+          {/* Desktop Primary Action Buttons (P4) */}
           <button
             type="button"
-            className="btn btn-ghost"
-            style={{ borderColor: 'var(--mint)', color: 'var(--navy)', fontWeight: 700 }}
-            onClick={() => setShowForum(true)}
-            title="Community forum linked to graph nodes"
+            className="btn btn-ghost desktop-only-control"
+            onClick={playDemo}
+            disabled={isReplaying || busy}
           >
-            💬 {lang === 'es' ? 'Foro & Comunidad' : 'Community Forum'}
-          </button>
-          <button type="button" className="btn btn-ghost" onClick={playDemo} disabled={isReplaying || busy}>
-            {t.menu.demo}
+            {t.menu.watchDemo}
           </button>
           <button
             type="button"
-            className="btn btn-mint"
+            className="btn btn-mint desktop-only-control"
             onClick={() => replayRun('dee69', true)}
             disabled={isReplaying || busy}
           >
             {t.menu.runAgent}
           </button>
-          {role === 'researcher' && (
+
+          {/* Desktop ⋯ More Dropdown (P4) */}
+          <div className="more-menu-wrapper desktop-only-control">
             <button
               type="button"
               className="btn btn-ghost"
-              onClick={() => {
-                setActiveTab('review')
-                setPanelOpen(true)
-              }}
+              onClick={() => setMoreMenuOpen((v) => !v)}
+              title="More actions"
             >
-              {t.menu.reviewQueue} ({reviewQueueData?.count ?? 43})
+              {t.menu.more}
             </button>
-          )}
+            {moreMenuOpen && (
+              <div className="more-menu-dropdown">
+                <button
+                  type="button"
+                  className="more-menu-item"
+                  onClick={() => {
+                    setShowForum(true)
+                    setMoreMenuOpen(false)
+                  }}
+                >
+                  💬 {t.menu.communityPreview}
+                </button>
+                {role === 'researcher' && (
+                  <button
+                    type="button"
+                    className="more-menu-item"
+                    onClick={() => {
+                      setActiveTab('review')
+                      setPanelOpen(true)
+                      setMoreMenuOpen(false)
+                    }}
+                  >
+                    ⚖ {t.menu.reviewQueue} ({reviewQueueData?.count ?? 43})
+                  </button>
+                )}
+                <button
+                  type="button"
+                  className="more-menu-item"
+                  onClick={() => {
+                    setShowWelcome(true)
+                    setMoreMenuOpen(false)
+                  }}
+                >
+                  ❓ {lang === 'es' ? 'Ayuda y Bienvenida' : 'Help & Welcome'}
+                </button>
+                <button
+                  type="button"
+                  className="more-menu-item"
+                  onClick={() => {
+                    handleReset()
+                    setMoreMenuOpen(false)
+                  }}
+                >
+                  🔄 {t.menu.reset}
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Mobile Hamburger Button (P3) */}
           <button
             type="button"
-            className="btn btn-ghost"
-            onClick={() => setShowWelcome(true)}
-            title="Help & Welcome"
+            className="mobile-hamburger-btn"
+            onClick={() => setMobileMenuOpen(true)}
+            aria-label="Open menu"
           >
-            ❓
-          </button>
-          <button type="button" className="btn btn-ghost" onClick={handleReset}>
-            {t.menu.reset}
+            ☰
           </button>
         </div>
       </header>
+
+      {/* Mobile Drawer Menu (P3) */}
+      {mobileMenuOpen && (
+        <div className="mobile-drawer-backdrop" onClick={() => setMobileMenuOpen(false)}>
+          <div className="mobile-drawer-panel" onClick={(e) => e.stopPropagation()}>
+            <div className="mobile-drawer-header">
+              <h3 style={{ margin: 0, fontSize: 16, color: 'var(--navy)' }}>Menu</h3>
+              <button
+                type="button"
+                className="side-panel-close-btn"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                ✕
+              </button>
+            </div>
+            <div className="mobile-drawer-body">
+              <button
+                type="button"
+                className="mobile-drawer-item"
+                onClick={() => {
+                  setMobileMenuOpen(false)
+                  playDemo()
+                }}
+                disabled={isReplaying || busy}
+              >
+                {t.menu.watchDemo}
+              </button>
+              <button
+                type="button"
+                className="mobile-drawer-item mobile-item-highlight"
+                onClick={() => {
+                  setMobileMenuOpen(false)
+                  replayRun('dee69', true)
+                }}
+                disabled={isReplaying || busy}
+              >
+                {t.menu.runAgent}
+              </button>
+              <button
+                type="button"
+                className="mobile-drawer-item"
+                onClick={() => {
+                  setMobileMenuOpen(false)
+                  setShowForum(true)
+                }}
+              >
+                💬 {t.menu.communityPreview}
+              </button>
+              {role === 'researcher' && (
+                <button
+                  type="button"
+                  className="mobile-drawer-item"
+                  onClick={() => {
+                    setMobileMenuOpen(false)
+                    setActiveTab('review')
+                    setPanelOpen(true)
+                    setMobileView('panel')
+                  }}
+                >
+                  ⚖ {t.menu.reviewQueue} ({reviewQueueData?.count ?? 43})
+                </button>
+              )}
+              <button
+                type="button"
+                className="mobile-drawer-item"
+                onClick={() => {
+                  handleLangChange(lang === 'en' ? 'es' : 'en')
+                  setMobileMenuOpen(false)
+                }}
+              >
+                🌐 {lang === 'en' ? 'Cambiar a Español (ES)' : 'Switch to English (EN)'}
+              </button>
+              <button
+                type="button"
+                className="mobile-drawer-item"
+                onClick={() => {
+                  setMobileMenuOpen(false)
+                  setShowWelcome(true)
+                }}
+              >
+                ❓ {lang === 'es' ? 'Ayuda & Bienvenida' : 'Help & Welcome'}
+              </button>
+              <button
+                type="button"
+                className="mobile-drawer-item"
+                onClick={() => {
+                  setMobileMenuOpen(false)
+                  handleReset()
+                }}
+              >
+                🔄 {t.menu.reset}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* 2. App Body */}
       <div className={`app-body mobile-view-${mobileView}`}>
@@ -734,8 +905,8 @@ export default function App() {
           />
         </div>
 
-        {/* Center: 3D Graph */}
-        <main className={`graph-col ${mobileView === 'graph' ? 'mobile-active' : ''}`}>
+        {/* Center: 3D Graph (P5) */}
+        <main ref={graphColRef as any} className={`graph-col ${mobileView === 'graph' ? 'mobile-active' : ''}`}>
           {graph ? (
             <>
               <div className="graph-top-overlay">
@@ -747,6 +918,8 @@ export default function App() {
                 highlight={hl}
                 onNodeClick={handleNodeClick}
                 onLinkClick={handleLinkClick}
+                width={graphDims.width > 0 ? graphDims.width : undefined}
+                height={graphDims.height > 0 ? graphDims.height : undefined}
               />
 
               <FindInGraph

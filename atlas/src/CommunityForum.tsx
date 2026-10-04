@@ -17,7 +17,6 @@ export interface ForumPost {
     role: 'family' | 'researcher' | 'organization'
     text: string
     date: string
-    verifiedQuote?: string
   }[]
 }
 
@@ -27,24 +26,17 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeId: 'OMIM:108500',
     nodeLabel: 'Episodic Ataxia Type 2',
     nodeType: 'disease',
-    title: 'Experiences with 4-Aminopyridine (4-AP) and acetazolamide side effects?',
-    author: 'Elena M. (Mother of 8yo)',
+    title: 'How can newly diagnosed families connect with EA2 support networks?',
+    author: 'A parent (example)',
     role: 'family',
     date: 'Yesterday',
-    content: 'My son was diagnosed with EA2 (loss of function in CACNA1A). Acetazolamide caused paresthesia and fatigue. Has anyone tried 4-AP or the new trials recruiting at Boston Children’s?',
-    answersCount: 2,
+    content: 'We received our genetic test result for CACNA1A. Where can we find peer support groups or registered registries for episodic ataxia type 2?',
+    answersCount: 1,
     replies: [
       {
-        author: 'Dr. Michael S. (Neurogenetics)',
-        role: 'researcher',
-        text: 'In EA2, 4-AP restores Purkinje cell firing regularity without carbonic anhydrase side effects. Clinical trial NCT01543750 validated attack reduction in 78% of participants.',
-        date: '18h ago',
-        verifiedQuote: 'NCT01543750: 4-Aminopyridine significantly reduces episodic attacks in EA2.',
-      },
-      {
-        author: 'CACNA1A Foundation Team',
+        author: 'A patient organization (example)',
         role: 'organization',
-        text: 'Elena, we run a bi-weekly parent support call and our natural history study has recorded patient-reported outcomes for both drugs. You can register voluntarily.',
+        text: 'You can check the Community tab on this disease node in the atlas to find verified patient foundations and active natural history registries.',
         date: '12h ago',
       },
     ],
@@ -54,24 +46,17 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeId: 'OMIM:618285',
     nodeLabel: 'Developmental And Epileptic Encephalopathy 69',
     nodeType: 'disease',
-    title: 'Connecting families with newly identified CACNA1E mutations',
-    author: 'Mark & Sarah T.',
+    title: 'Are there shared registries for CACNA1E families?',
+    author: 'A parent (example)',
     role: 'family',
     date: '2 days ago',
-    content: 'We just got our WES result showing a de novo missense variant in CACNA1E (DEE69). Doctors know very little about it. Where can we find other families?',
-    answersCount: 2,
+    content: 'Our doctor mentioned CACNA1E is newly characterized. Are patient organizations organizing contact lists or registries for upcoming studies?',
+    answersCount: 1,
     replies: [
       {
-        author: 'CACNA1E International',
+        author: 'A patient organization (example)',
         role: 'organization',
-        text: 'Welcome Mark & Sarah. We are a global network of over 40 families. Lario Therapeutics also presented at our recent family conference regarding early research.',
-        date: '1 day ago',
-        verifiedQuote: 'CACNA1E International: Verein für Menschen mit Gendefekt auf CACNA1E.',
-      },
-      {
-        author: 'Ziva (AI Community Coordinator)',
-        role: 'researcher',
-        text: 'I detected 1 patient group (CACNA1E International) and 1 biotech initiative (Lario Therapeutics) connected to DEE69 in the atlas. I can highlight their connections on your 3D graph.',
+        text: 'Yes, international family advocacy groups coordinate voluntary contact lists. Inspect the Community tab to see registered initiatives.',
         date: '1 day ago',
       },
     ],
@@ -81,17 +66,17 @@ const SAMPLE_POSTS: ForumPost[] = [
     nodeId: 'mech:gain-of-function',
     nodeLabel: 'Gain of Function',
     nodeType: 'mechanism',
-    title: 'Functional assay protocol for CACNA1A VUS classification',
-    author: 'Lab de Neurobiología Molecular',
+    title: 'Collaborative interest in functional assays for CACNA1A VUS?',
+    author: 'A researcher (example)',
     role: 'researcher',
     date: '3 days ago',
-    content: 'We are setting up patch-clamp assays for 10 ClinVar variants of uncertain significance. We are looking for collaborative groups working on FHM1 vs EA2 channel kinetics.',
+    content: 'We are mapping patch-clamp experimental workflows to distinguish loss versus gain of function in uncharacterized variants. Looking for academic labs interested in protocol alignment.',
     answersCount: 1,
     replies: [
       {
-        author: 'Ataxia Research Consortium',
+        author: 'A researcher (example)',
         role: 'researcher',
-        text: 'We have automated patch-clamp data for S218L and R192Q ready for cross-comparison. Contact us via the institutional registry.',
+        text: 'We are compiling variant electrophysiology protocols. We recommend checking the Gain of Function node links in the graph for connected literature.',
         date: '2 days ago',
       },
     ],
@@ -118,10 +103,6 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
   const [newTopicTitle, setNewTopicTitle] = useState('')
   const [newTopicBody, setNewTopicBody] = useState('')
   const [showCreateModal, setShowCreateModal] = useState(false)
-
-  // Multi-agent action: Ziva suggests connections
-  const [zivaConnecting, setZivaConnecting] = useState(false)
-  const [agentMatchMessage, setAgentMatchMessage] = useState<string | null>(null)
 
   const handleAddReply = (postId: string) => {
     if (!newComment.trim()) return
@@ -169,23 +150,32 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
     setNewComment('')
   }
 
-  // Ziva Multi-agent matchmaking: connects families to researchers
-  const triggerZivaMatchmaker = (post: ForumPost) => {
-    setZivaConnecting(true)
-    setTimeout(() => {
-      setZivaConnecting(false)
-      const matchText =
-        lang === 'es'
-          ? `Ziva Multi-Agente: Conecté este tema con 2 investigadores de CACNA1A y la organización de pacientes registrada. He iluminado el nodo "${post.nodeLabel}" en tu mapa 3D.`
-          : `Ziva Multi-Agent: Matched this discussion with 2 CACNA1A research labs and 1 verified patient organization. Highlighted "${post.nodeLabel}" in your 3D atlas.`
-      setAgentMatchMessage(matchText)
-      onFocusGraphNode(post.nodeId)
-    }, 1200)
-  }
-
   return (
     <div className="community-forum-overlay">
       <div className="community-forum-card">
+        {/* Banner: Design Preview & Disclaimers */}
+        <div
+          style={{
+            background: '#fef3c7',
+            color: '#92400e',
+            borderBottom: '1px solid #fde68a',
+            padding: '10px 16px',
+            fontSize: '12.5px',
+            lineHeight: 1.4,
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            fontWeight: 600,
+          }}
+        >
+          <span>⚠</span>
+          <span>
+            {lang === 'es'
+              ? 'Vista previa de diseño · Publicaciones ilustrativas. No son usuarios, organizaciones ni afirmaciones médicas reales. El espacio comunitario está en desarrollo.'
+              : 'Design preview · Illustrative posts. These are not real users, organizations or medical claims. The community space is in development.'}
+          </span>
+        </div>
+
         {/* Header */}
         <div className="forum-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
@@ -197,7 +187,7 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                 {lang === 'es' ? 'COMUNIDAD ILUMINAI · FORO CONECTADO A NODOS' : 'ILUMINAI COMMUNITY · NODE-LINKED FORUM'}
               </span>
               <h3 style={{ margin: 0, fontSize: 18, color: 'var(--navy)' }}>
-                {lang === 'es' ? 'Espacio Seguro: Familias, Médicos e Investigadores' : 'Safe Space: Families, Physicians & Researchers'}
+                {lang === 'es' ? 'Espacio Seguro (Vista Previa)' : 'Community Space (Preview)'}
               </h3>
             </div>
           </div>
@@ -221,13 +211,6 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
             </button>
           </div>
         </div>
-
-        {/* Ziva multi-agent notification */}
-        {agentMatchMessage && (
-          <div className="warn" style={{ background: '#ecfdf5', color: '#065f46', border: '1px solid #a7f3d0', margin: '12px 20px 0' }}>
-            <strong>🤖 {agentMatchMessage}</strong>
-          </div>
-        )}
 
         {/* Main Forum Body */}
         <div className="forum-body">
@@ -289,14 +272,9 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                       type="button"
                       className="btn btn-ghost"
                       style={{ height: 28, fontSize: 11, padding: '0 8px' }}
-                      onClick={() => triggerZivaMatchmaker(selectedPost)}
-                      disabled={zivaConnecting}
+                      onClick={() => onFocusGraphNode(selectedPost.nodeId)}
                     >
-                      {zivaConnecting
-                        ? 'Connecting agents…'
-                        : lang === 'es'
-                        ? '🤖 Conectar con Especialistas (Ziva)'
-                        : '🤖 Ziva Multi-Agent Match'}
+                      🎯 {lang === 'es' ? 'Ver en Grafo 3D' : 'Focus in 3D Graph'}
                     </button>
                   </div>
                   <h3 style={{ margin: '0 0 6px', fontSize: 17, color: 'var(--navy)' }}>
@@ -317,15 +295,14 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                       key={idx}
                       style={{
                         padding: 10,
-                        background: rep.role === 'researcher' ? '#f0fdf4' : '#f8fafc',
+                        background: '#f8fafc',
                         borderRadius: 8,
-                        border: rep.role === 'researcher' ? '1px solid #bbf7d0' : '1px solid #e2e8f0',
+                        border: '1px solid #e2e8f0',
                       }}
                     >
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-                        <span style={{ fontSize: 12, fontWeight: 700, color: rep.role === 'researcher' ? '#166534' : 'var(--navy)' }}>
-                          {rep.role === 'researcher' ? '🩺 ' : '👤 '}
-                          {rep.author}
+                        <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--navy)' }}>
+                          👤 {rep.author}
                           <span style={{ fontSize: 10, fontWeight: 500, color: '#64748b', marginLeft: 6 }}>
                             ({rep.role})
                           </span>
@@ -335,40 +312,40 @@ export const CommunityForum: React.FC<CommunityForumProps> = ({
                       <p style={{ margin: 0, fontSize: 12.5, color: 'var(--navy)', lineHeight: 1.45 }}>
                         {rep.text}
                       </p>
-                      {rep.verifiedQuote && (
-                        <div style={{ marginTop: 6, fontSize: 11, fontStyle: 'italic', color: '#0369a1', background: '#e0f2fe', padding: '3px 6px', borderRadius: 4 }}>
-                          Citation: “{rep.verifiedQuote}”
-                        </div>
-                      )}
                     </div>
                   ))}
                 </div>
 
                 {/* Add Reply Composer */}
-                <div style={{ marginTop: 12, paddingTop: 12, borderTop: '1px solid #e2e8f0', display: 'flex', gap: 8 }}>
-                  <input
-                    type="text"
-                    value={newComment}
-                    onChange={(e) => setNewComment(e.target.value)}
-                    placeholder={
-                      activeRole === 'researcher'
-                        ? 'Provide clinical or research guidance with citation…'
-                        : 'Reply to this community topic…'
-                    }
-                    style={{ flex: 1, height: 36, padding: '0 12px', borderRadius: 8, border: '1px solid #cbd5e1', fontSize: 12.5 }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') handleAddReply(selectedPost.id)
-                    }}
-                  />
-                  <button
-                    type="button"
-                    className="btn btn-mint"
-                    style={{ height: 36, padding: '0 14px', fontSize: 12 }}
-                    onClick={() => handleAddReply(selectedPost.id)}
-                    disabled={!newComment.trim()}
-                  >
-                    {lang === 'es' ? 'Comentar' : 'Reply'}
-                  </button>
+                <div style={{ marginTop: 12, paddingTop: 12, borderTop: '1px solid #e2e8f0' }}>
+                  <div style={{ display: 'flex', gap: 8 }}>
+                    <input
+                      type="text"
+                      value={newComment}
+                      onChange={(e) => setNewComment(e.target.value)}
+                      placeholder={
+                        lang === 'es'
+                          ? 'Escribe una respuesta comunitaria ilustrativa…'
+                          : 'Write an illustrative community reply…'
+                      }
+                      style={{ flex: 1, height: 36, padding: '0 12px', borderRadius: 8, border: '1px solid #cbd5e1', fontSize: 12.5 }}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') handleAddReply(selectedPost.id)
+                      }}
+                    />
+                    <button
+                      type="button"
+                      className="btn btn-mint"
+                      style={{ height: 36, padding: '0 14px', fontSize: 12 }}
+                      onClick={() => handleAddReply(selectedPost.id)}
+                      disabled={!newComment.trim()}
+                    >
+                      {lang === 'es' ? 'Comentar' : 'Reply'}
+                    </button>
+                  </div>
+                  <div style={{ fontSize: 11, color: '#94a3b8', fontStyle: 'italic', marginTop: 6 }}>
+                    ℹ {lang === 'es' ? 'Las publicaciones no se guardan en esta vista previa.' : 'Posts are not saved in this preview.'}
+                  </div>
                 </div>
               </div>
             ) : (

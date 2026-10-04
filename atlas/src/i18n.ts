@@ -15,8 +15,14 @@ export interface TranslationDict {
     watchDemo: string
     runAgent: string
     reviewQueue: string
+    communityPreview: string
+    more: string
     reset: string
     stop: string
+  }
+  forum: {
+    banner: string
+    notSavedNote: string
   }
   ziva: {
     guideEyebrow: string
@@ -118,8 +124,14 @@ export const i18n: Record<Lang, TranslationDict> = {
       watchDemo: '▶ Watch demo',
       runAgent: '▶ Run agent: DEE69',
       reviewQueue: 'Review queue',
+      communityPreview: 'Community (preview)',
+      more: '⋯ More',
       reset: 'Reset',
       stop: 'Stop',
+    },
+    forum: {
+      banner: 'Design preview · Illustrative posts. These are not real users, organizations or medical claims. The community space is in development.',
+      notSavedNote: 'Posts are not saved in this preview.',
     },
     ziva: {
       guideEyebrow: 'YOUR EVIDENCE GUIDE',
@@ -223,8 +235,14 @@ export const i18n: Record<Lang, TranslationDict> = {
       watchDemo: '▶ Ver demo',
       runAgent: '▶ Ejecutar agente: DEE69',
       reviewQueue: 'Cola de revisión',
+      communityPreview: 'Comunidad (vista previa)',
+      more: '⋯ Más',
       reset: 'Reiniciar',
       stop: 'Detener',
+    },
+    forum: {
+      banner: 'Vista previa de diseño · Publicaciones ilustrativas. No son usuarios, organizaciones ni afirmaciones médicas reales. El espacio comunitario está en desarrollo.',
+      notSavedNote: 'Las publicaciones no se guardan en esta vista previa.',
     },
     ziva: {
       guideEyebrow: 'TU GUÍA DE EVIDENCIA',
