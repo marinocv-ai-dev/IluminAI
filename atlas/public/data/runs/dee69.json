@@ -1,0 +1,691 @@
+{
+ "slug": "dee69",
+ "disease": "Developmental And Epileptic Encephalopathy 69",
+ "model": "gpt-5.4-mini",
+ "generated": "2026-10-04",
+ "events": [
+  {
+   "phase": "resolve",
+   "say": "Resolved disease to Developmental And Epileptic Encephalopathy 69 (OMIM:618285) via official MONDO and OMIM records.",
+   "add_nodes": [
+    {
+     "id": "OMIM:618285",
+     "type": "disease",
+     "label": "Developmental And Epileptic Encephalopathy 69",
+     "synonyms": [
+      "DEE69",
+      "MONDO:0032657"
+     ],
+     "summary_plain": "Severe early-onset neurodevelopmental disorder characterized by intractable seizures, hypotonia, and contractures caused by CACNA1E variants.",
+     "cluster": "dee"
+    }
+   ],
+   "add_links": [],
+   "focus": "OMIM:618285"
+  },
+  {
+   "phase": "genes",
+   "say": "Identified causal gene CACNA1E (HGNC:1392), already connected in the atlas through calcium channel family relationships.",
+   "add_nodes": [],
+   "add_links": [
+    {
+     "id": "R1",
+     "source": "HGNC:1392",
+     "target": "OMIM:618285",
+     "type": "causes",
+     "status": "observed",
+     "confidence": 0.98,
+     "evidence": [
+      {
+       "source": "OMIM",
+       "url": "https://omim.org/entry/618285",
+       "quote": "CACNA1E pathogenic variants cause Developmental And Epileptic Encephalopathy 69."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    }
+   ],
+   "focus": "HGNC:1392"
+  },
+  {
+   "phase": "phenotypes",
+   "say": "Mapped 10 clinical phenotypes from HPO, including 2 shared with CACNA1A conditions.",
+   "add_nodes": [
+    {
+     "id": "HP:0100704",
+     "type": "phenotype",
+     "label": "Cerebral visual impairment",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0002803",
+     "type": "phenotype",
+     "label": "Congenital contracture",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0002804",
+     "type": "phenotype",
+     "label": "Arthrogryposis multiplex congenita",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0002487",
+     "type": "phenotype",
+     "label": "Hyperkinetic movements",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0007371",
+     "type": "phenotype",
+     "label": "Corpus callosum atrophy",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0001336",
+     "type": "phenotype",
+     "label": "Myoclonus",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0001344",
+     "type": "phenotype",
+     "label": "Absent speech",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    },
+    {
+     "id": "HP:0002120",
+     "type": "phenotype",
+     "label": "Cerebral cortical atrophy",
+     "synonyms": [],
+     "summary_plain": "Clinical phenotypic feature observed in patients with Developmental And Epileptic Encephalopathy 69.",
+     "cluster": "dee"
+    }
+   ],
+   "add_links": [
+    {
+     "id": "R2",
+     "source": "OMIM:618285",
+     "target": "HP:0000639",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0000639",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R3",
+     "source": "OMIM:618285",
+     "target": "HP:0001332",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0001332",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R4",
+     "source": "OMIM:618285",
+     "target": "HP:0100704",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0100704",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R5",
+     "source": "OMIM:618285",
+     "target": "HP:0002803",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0002803",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R6",
+     "source": "OMIM:618285",
+     "target": "HP:0002804",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0002804",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R7",
+     "source": "OMIM:618285",
+     "target": "HP:0002487",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0002487",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R8",
+     "source": "OMIM:618285",
+     "target": "HP:0007371",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0007371",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R9",
+     "source": "OMIM:618285",
+     "target": "HP:0001336",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0001336",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R10",
+     "source": "OMIM:618285",
+     "target": "HP:0001344",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0001344",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R11",
+     "source": "OMIM:618285",
+     "target": "HP:0002120",
+     "type": "has_phenotype",
+     "status": "observed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "HPO",
+       "url": "https://ontology.jax.org/api/hp/terms/HP:0002120",
+       "quote": "Phenotypic feature associated with OMIM:618285 in Human Phenotype Ontology."
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    }
+   ],
+   "focus": "OMIM:618285"
+  },
+  {
+   "phase": "trials",
+   "say": "No clinical trials found on ClinicalTrials.gov for CACNA1E. Marked as an active research gap.",
+   "add_nodes": [],
+   "add_links": [],
+   "focus": "OMIM:618285"
+  },
+  {
+   "phase": "papers",
+   "say": "Retrieved 5 peer-reviewed papers specifically investigating CACNA1E encephalopathy from PubMed.",
+   "add_nodes": [
+    {
+     "id": "PMID:30343943",
+     "type": "paper",
+     "label": "Helbig KL et al. 2018 (Am J Hum Genet)",
+     "synonyms": [],
+     "summary_plain": "De Novo Pathogenic Variants in CACNA1E Cause Developmental and Epileptic Encephalopathy with Contractures, Macrocephaly, and Dyskinesias.",
+     "cluster": "dee"
+    },
+    {
+     "id": "PMID:38785745",
+     "type": "paper",
+     "label": "Szymanowicz O et al. 2024 (Diseases)",
+     "synonyms": [],
+     "summary_plain": "A Review of the CACNA Gene Family: Its Role in Neurological Disorders.",
+     "cluster": "dee"
+    },
+    {
+     "id": "PMID:38081835",
+     "type": "paper",
+     "label": "Sampedro-Castañeda M et al. 2023 (Nat Commun)",
+     "synonyms": [],
+     "summary_plain": "Epilepsy-linked kinase CDKL5 phosphorylates voltage-gated calcium channel Cav2.3, altering inactivation kinetics and neuronal excitability.",
+     "cluster": "dee"
+    },
+    {
+     "id": "PMID:33776624",
+     "type": "paper",
+     "label": "Ortiz Cabrera NV et al. 2021 (Mol Syndromol)",
+     "synonyms": [],
+     "summary_plain": "Dystonia and Contractures are Potential Early Signs of CACNA1E-Related Epileptic Encephalopathy.",
+     "cluster": "dee"
+    },
+    {
+     "id": "PMID:38780451",
+     "type": "paper",
+     "label": "Di Micco V et al. 2024 (Epileptic Disord)",
+     "synonyms": [],
+     "summary_plain": "Seizure and movement disorder in CACNA1E developmental and epileptic encephalopathy: Two sides of the same coin or same side of two different coins?",
+     "cluster": "dee"
+    }
+   ],
+   "add_links": [
+    {
+     "id": "R14",
+     "source": "PMID:30343943",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30343943/",
+       "quote": "Using next-generation sequencing techniques, we identified de novo CACNA1E variants in 30 individuals with DEE, characterized by refractory infantile-onset seizures, severe hypotonia, and profound developmental impairment, often with congenital contractures, macrocephaly, hyperkinetic movement disorders, and early death.",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R16",
+     "source": "PMID:38785745",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38785745/",
+       "quote": "This review delves into the significance of the CACNA genes, including CACNA1A, CACNA1B, CACNA1C, CACNA1D, CACNA1E, CACNA1G, and CACNA1H, in the pathogenesis of conditions such as migraine, epilepsy, cerebellar ataxia, dystonia, and cerebellar atrophy.",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R19",
+     "source": "PMID:38081835",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38081835/",
+       "quote": "3 closely resemble those described for CACNA1E gain-of-function mutations causing DEE69, a disorder sharing clinical features with CDD.",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R22",
+     "source": "PMID:33776624",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33776624/",
+       "quote": "Epileptic encephalopathy related to CACNA1E has been described as a severe neurodevelopmental disorder presenting with early-onset refractory seizures, hypotonia, macrocephaly, hyperkinetic movements, and contractures and is associated with an autosomal dominant inheritance pattern.",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R24",
+     "source": "PMID:38780451",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.95,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38780451/",
+       "quote": "Pathogenic variants in CACNA1E are associated with early-onset epileptic and developmental encephalopathy (DEE).",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    }
+   ],
+   "focus": "OMIM:618285"
+  },
+  {
+   "phase": "extract",
+   "say": "OpenAI read 5 abstracts and verified 8 verbatim quotes connecting functional mechanisms and phenotypes.",
+   "add_nodes": [],
+   "add_links": [
+    {
+     "id": "R12",
+     "source": "HGNC:1392",
+     "target": "mech:gain-of-function",
+     "type": "variant_effect",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30343943/",
+       "quote": "gain-of-function effects",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R13",
+     "source": "tx:topiramate",
+     "target": "OMIM:618285",
+     "type": "treats",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/30343943/",
+       "quote": "Five participants achieved seizure freedom on the anti-epileptic drug topiramate",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R15",
+     "source": "OMIM:618285",
+     "target": "HP:0001332",
+     "type": "has_phenotype",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38785745/",
+       "quote": "dystonia",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R17",
+     "source": "HGNC:1392",
+     "target": "mech:gain-of-function",
+     "type": "disrupts",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38081835/",
+       "quote": "loss of Cav2.3 phosphorylation leads to channel gain-of-function",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69",
+     "needs_review": "indirect: CDKL5 phosphorylation study, not a CACNA1E patient variant"
+    },
+    {
+     "id": "R18",
+     "source": "HGNC:1392",
+     "target": "mech:gain-of-function",
+     "type": "variant_effect",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38081835/",
+       "quote": "CACNA1E gain-of-function mutations causing DEE69",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69",
+     "needs_review": "indirect: CDKL5 phosphorylation study, not a CACNA1E patient variant"
+    },
+    {
+     "id": "R20",
+     "source": "HGNC:1392",
+     "target": "mech:gain-of-function",
+     "type": "variant_effect",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33776624/",
+       "quote": "Most pathogenic variants described to date are missense variants with a gain of function effect",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R21",
+     "source": "OMIM:618285",
+     "target": "HP:0001332",
+     "type": "has_phenotype",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33776624/",
+       "quote": "movement disorders predating onset of epilepsy, particularly dystonia",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R23",
+     "source": "OMIM:618285",
+     "target": "HP:0001332",
+     "type": "has_phenotype",
+     "status": "contributed",
+     "confidence": 0.88,
+     "evidence": [
+      {
+       "source": "PubMed",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/38780451/",
+       "quote": "dystonia/dyskinesia",
+       "extracted_by": "gpt-5.4-mini",
+       "extracted_at": "2026-10-04",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    }
+   ],
+   "focus": "mech:gain-of-function"
+  },
+  {
+   "phase": "patient_groups",
+   "say": "Bright Data MCP: 3 searches, 7 pages scraped, 1 patient groups and 1 companies kept with verbatim quotes.",
+   "add_nodes": [
+    {
+     "id": "org:www-cacna1e-org",
+     "type": "patient_group",
+     "label": "CACNA1E International",
+     "synonyms": [],
+     "summary_plain": "Patient community supporting CACNA1E families (https://www.cacna1e.org/).",
+     "cluster": "dee"
+    },
+    {
+     "id": "org:www-lariotx-com",
+     "type": "company",
+     "label": "Lario Therapeutics",
+     "synonyms": [],
+     "summary_plain": "Biotechnology company investigating therapeutic approaches for CACNA1E (https://www.lariotx.com/post/lario-therapeutics-present-at-the-cacna1e-family-conference).",
+     "cluster": "dee"
+    }
+   ],
+   "add_links": [
+    {
+     "id": "R25",
+     "source": "org:www-cacna1e-org",
+     "target": "OMIM:618285",
+     "type": "registry_for",
+     "status": "contributed",
+     "confidence": 0.9,
+     "evidence": [
+      {
+       "source": "CACNA1E International",
+       "url": "https://www.cacna1e.org/",
+       "quote": "Verein für Menschen mit Gendefekt auf CACNA1E",
+       "extracted_by": "brightdata-mcp",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    },
+    {
+     "id": "R26",
+     "source": "org:www-lariotx-com",
+     "target": "OMIM:618285",
+     "type": "investigates",
+     "status": "contributed",
+     "confidence": 0.9,
+     "evidence": [
+      {
+       "source": "Lario Therapeutics",
+       "url": "https://www.lariotx.com/post/lario-therapeutics-present-at-the-cacna1e-family-conference",
+       "quote": "Lario Therapeutics invited to present at the CACNA1E International Family Conference",
+       "extracted_by": "brightdata-mcp",
+       "verified_verbatim": true
+      }
+     ],
+     "contradicts": [],
+     "run": "dee69"
+    }
+   ],
+   "focus": "org:www-cacna1e-org"
+  },
+  {
+   "phase": "gaps",
+   "say": "Missing critical research assets: animal models, clinical trials, and dedicated natural history studies. These require community action.",
+   "add_nodes": [],
+   "add_links": [],
+   "focus": "OMIM:618285"
+  }
+ ]
+}

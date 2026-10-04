@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+data/.cache/
+*.bak
+*.bak-*
+*.pre-audit
+__pycache__/
+atlas/eval/ask_eval_out.json

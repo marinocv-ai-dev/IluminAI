@@ -1,0 +1,309 @@
+{
+  "generated": "2026-10-04",
+  "sources_searched": [
+    "OMIM",
+    "HGNC",
+    "HPO",
+    "ClinVar",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "NIH RePORTER",
+    "JAX",
+    "patient-group websites"
+  ],
+  "cacna1a_vus": {
+    "vus_count": 3377,
+    "vus_query_url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=CACNA1A%5Bgene%5D+AND+%22uncertain+significance%22%5Bclinsig%5D",
+    "description": "3377 CACNA1A variants of uncertain significance in ClinVar: functional effect (LoF/GoF) unknown"
+  },
+  "diseases": [
+    {
+      "id": "OMIM:108500",
+      "label": "Episodic Ataxia Type 2",
+      "has": {
+        "animal_model": true,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": true,
+        "trial": true,
+        "treatment": true,
+        "researcher": true
+      },
+      "missing": [
+        "cell_model"
+      ],
+      "vus_count": 3377,
+      "vus_query_url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=CACNA1A%5Bgene%5D+AND+%22uncertain+significance%22%5Bclinsig%5D"
+    },
+    {
+      "id": "OMIM:141500",
+      "label": "Familial Hemiplegic Migraine Type 1",
+      "has": {
+        "animal_model": true,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": true,
+        "trial": true,
+        "treatment": false,
+        "researcher": true
+      },
+      "missing": [
+        "cell_model",
+        "treatment"
+      ],
+      "vus_count": 3377,
+      "vus_query_url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=CACNA1A%5Bgene%5D+AND+%22uncertain+significance%22%5Bclinsig%5D"
+    },
+    {
+      "id": "OMIM:183086",
+      "label": "Spinocerebellar Ataxia Type 6",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": true,
+        "trial": true,
+        "treatment": true,
+        "researcher": true
+      },
+      "missing": [
+        "animal_model",
+        "cell_model"
+      ],
+      "vus_count": 3377,
+      "vus_query_url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=CACNA1A%5Bgene%5D+AND+%22uncertain+significance%22%5Bclinsig%5D"
+    },
+    {
+      "id": "OMIM:617106",
+      "label": "Developmental and Epileptic Encephalopathy 42",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": true,
+        "trial": false,
+        "treatment": false,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "trial",
+        "treatment",
+        "researcher"
+      ],
+      "vus_count": 3377,
+      "vus_query_url": "https://www.ncbi.nlm.nih.gov/clinvar/?term=CACNA1A%5Bgene%5D+AND+%22uncertain+significance%22%5Bclinsig%5D"
+    },
+    {
+      "id": "OMIM:160120",
+      "label": "Episodic Ataxia Type 1",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": true
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment"
+      ]
+    },
+    {
+      "id": "OMIM:602481",
+      "label": "Familial Hemiplegic Migraine Type 2",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": true
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment"
+      ]
+    },
+    {
+      "id": "OMIM:609634",
+      "label": "Familial Hemiplegic Migraine Type 3",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": true
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment"
+      ]
+    },
+    {
+      "id": "OMIM:613855",
+      "label": "Episodic Ataxia Type 5",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment",
+        "researcher"
+      ]
+    },
+    {
+      "id": "OMIM:612656",
+      "label": "Episodic Ataxia Type 6",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": true
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment"
+      ]
+    },
+    {
+      "id": "OMIM:164400",
+      "label": "Spinocerebellar Ataxia Type 1",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": true,
+        "trial": true,
+        "treatment": true,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "researcher"
+      ]
+    },
+    {
+      "id": "OMIM:183090",
+      "label": "Spinocerebellar Ataxia Type 2",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": true,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "researcher"
+      ]
+    },
+    {
+      "id": "OMIM:109150",
+      "label": "Machado-Joseph Disease (SCA3)",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment",
+        "researcher"
+      ]
+    },
+    {
+      "id": "OMIM:164500",
+      "label": "Spinocerebellar Ataxia Type 7",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": false,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "registry_or_group",
+        "natural_history",
+        "trial",
+        "treatment",
+        "researcher"
+      ]
+    },
+    {
+      "id": "OMIM:607208",
+      "label": "Dravet Syndrome",
+      "has": {
+        "animal_model": false,
+        "cell_model": false,
+        "registry_or_group": true,
+        "natural_history": false,
+        "trial": false,
+        "treatment": false,
+        "researcher": false
+      },
+      "missing": [
+        "animal_model",
+        "cell_model",
+        "natural_history",
+        "trial",
+        "treatment",
+        "researcher"
+      ]
+    }
+  ]
+}

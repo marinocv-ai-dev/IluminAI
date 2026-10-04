@@ -1,0 +1,4244 @@
+{
+ "nodes": [
+  {
+   "id": "HGNC:1388",
+   "type": "gene",
+   "label": "CACNA1A",
+   "synonyms": [
+    "Cav2.1",
+    "CACNL1A4",
+    "APCA",
+    "EA2",
+    "FHM1",
+    "SCA6"
+   ],
+   "summary_plain": "Builds pore-forming alpha-1A subunit of P/Q-type calcium channel essential for neurotransmitter release.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HGNC:800",
+   "type": "gene",
+   "label": "ATP1A2",
+   "synonyms": [
+    "FHM2"
+   ],
+   "summary_plain": "Encodes sodium/potassium ATPase alpha-2 subunit that regulates glial ion balance and glutamate clearance.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "HGNC:10585",
+   "type": "gene",
+   "label": "SCN1A",
+   "synonyms": [
+    "Nav1.1",
+    "FHM3",
+    "GEFS+"
+   ],
+   "summary_plain": "Encodes voltage-gated sodium channel Nav1.1 critical for GABAergic inhibitory interneuron firing.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "HGNC:6218",
+   "type": "gene",
+   "label": "KCNA1",
+   "synonyms": [
+    "Kv1.1",
+    "EA1",
+    "AEMK"
+   ],
+   "summary_plain": "Encodes voltage-gated potassium channel Kv1.1 controlling repolarization in cerebellar basket cells.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "HGNC:1404",
+   "type": "gene",
+   "label": "CACNB4",
+   "synonyms": [
+    "EA5",
+    "CAB4"
+   ],
+   "summary_plain": "Encodes calcium channel beta-4 auxiliary subunit that modulates Cav2.1 and Cav2.2 trafficking.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "HGNC:10941",
+   "type": "gene",
+   "label": "SLC1A3",
+   "synonyms": [
+    "EA6",
+    "GLAST",
+    "EAAT1"
+   ],
+   "summary_plain": "Encodes excitatory amino acid transporter 1 (GLAST) clearing synaptic glutamate in Bergmann glia.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "HGNC:10548",
+   "type": "gene",
+   "label": "ATXN1",
+   "synonyms": [
+    "SCA1"
+   ],
+   "summary_plain": "Encodes ataxin-1; CAG repeat expansion causes cerebellar Purkinje cell neurodegeneration.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HGNC:10555",
+   "type": "gene",
+   "label": "ATXN2",
+   "synonyms": [
+    "SCA2"
+   ],
+   "summary_plain": "Encodes ataxin-2; polyglutamine expansion impairs RNA metabolism and translation.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HGNC:7106",
+   "type": "gene",
+   "label": "ATXN3",
+   "synonyms": [
+    "MJD",
+    "SCA3"
+   ],
+   "summary_plain": "Encodes ataxin-3 deubiquitinase; polyQ expansion leads to toxic protein aggregates.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HGNC:10560",
+   "type": "gene",
+   "label": "ATXN7",
+   "synonyms": [
+    "SCA7"
+   ],
+   "summary_plain": "Encodes ataxin-7 subunit of STAGA complex; polyQ expansion causes ataxia with macular degeneration.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HGNC:1389",
+   "type": "gene",
+   "label": "CACNA1B",
+   "synonyms": [
+    "Cav2.2"
+   ],
+   "summary_plain": "Encodes N-type voltage-gated calcium channel pore subunit closely related to Cav2.1.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HGNC:1392",
+   "type": "gene",
+   "label": "CACNA1E",
+   "synonyms": [
+    "Cav2.3",
+    "DEE69"
+   ],
+   "summary_plain": "Encodes R-type calcium channel alpha-1E subunit implicated in early infantile epileptic encephalopathy.",
+   "cluster": "dee"
+  },
+  {
+   "id": "OMIM:108500",
+   "type": "disease",
+   "label": "Episodic Ataxia Type 2",
+   "synonyms": [
+    "EA2",
+    "MONDO:0007166",
+    "ORPHA:93"
+   ],
+   "summary_plain": "Recurrent attacks of unsteadiness, vertigo, and slurred speech lasting hours, triggered by stress or exertion.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "OMIM:141500",
+   "type": "disease",
+   "label": "Familial Hemiplegic Migraine Type 1",
+   "synonyms": [
+    "FHM1",
+    "MONDO:0007977",
+    "ORPHA:569"
+   ],
+   "summary_plain": "Severe migraines accompanied by temporary weakness on one side of the body and visual disturbances.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "OMIM:183086",
+   "type": "disease",
+   "label": "Spinocerebellar Ataxia Type 6",
+   "synonyms": [
+    "SCA6",
+    "MONDO:0008436",
+    "ORPHA:98845"
+   ],
+   "summary_plain": "Gradual, progressive loss of balance and coordination beginning in mid-to-late adulthood.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "OMIM:617106",
+   "type": "disease",
+   "label": "Developmental and Epileptic Encephalopathy 42",
+   "synonyms": [
+    "DEE42",
+    "MONDO:0014890"
+   ],
+   "summary_plain": "Severe early-onset seizures, developmental arrest or regression, and muscle tone abnormalities.",
+   "cluster": "dee"
+  },
+  {
+   "id": "OMIM:160120",
+   "type": "disease",
+   "label": "Episodic Ataxia Type 1",
+   "synonyms": [
+    "EA1",
+    "MONDO:0007165",
+    "ORPHA:92"
+   ],
+   "summary_plain": "Brief attacks of ataxia and persistent muscle rippling (myokymia) caused by potassium channel defects.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "OMIM:602481",
+   "type": "disease",
+   "label": "Familial Hemiplegic Migraine Type 2",
+   "synonyms": [
+    "FHM2",
+    "MONDO:0011749"
+   ],
+   "summary_plain": "Migraines with motor weakness caused by pump defects that disrupt brain potassium and glutamate removal.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "OMIM:609634",
+   "type": "disease",
+   "label": "Familial Hemiplegic Migraine Type 3",
+   "synonyms": [
+    "FHM3",
+    "MONDO:0012290"
+   ],
+   "summary_plain": "Migraines with transient motor weakness caused by gain-of-function sodium channel Nav1.1 variants.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "OMIM:613855",
+   "type": "disease",
+   "label": "Episodic Ataxia Type 5",
+   "synonyms": [
+    "EA5",
+    "MONDO:0013348"
+   ],
+   "summary_plain": "Paroxysmal ataxia episodes caused by mutations in the calcium channel beta-4 auxiliary subunit.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "OMIM:612656",
+   "type": "disease",
+   "label": "Episodic Ataxia Type 6",
+   "synonyms": [
+    "EA6",
+    "MONDO:0012975"
+   ],
+   "summary_plain": "Episodic ataxia with seizures and hemiplegia caused by impaired glial glutamate uptake transporter.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "OMIM:164400",
+   "type": "disease",
+   "label": "Spinocerebellar Ataxia Type 1",
+   "synonyms": [
+    "SCA1",
+    "MONDO:0007164"
+   ],
+   "summary_plain": "Progressive neurodegenerative cerebellar ataxia caused by CAG polyglutamine expansion in ATXN1.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "OMIM:183090",
+   "type": "disease",
+   "label": "Spinocerebellar Ataxia Type 2",
+   "synonyms": [
+    "SCA2",
+    "MONDO:0007167"
+   ],
+   "summary_plain": "Autosomal dominant progressive ataxia with slow saccadic eye movements caused by ATXN2 CAG expansion.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "OMIM:109150",
+   "type": "disease",
+   "label": "Machado-Joseph Disease (SCA3)",
+   "synonyms": [
+    "MJD",
+    "SCA3",
+    "Spinocerebellar Ataxia Type 3"
+   ],
+   "summary_plain": "Progressive cerebellar ataxia with spasticity and peripheral neuropathy caused by ATXN3 CAG expansion.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "OMIM:164500",
+   "type": "disease",
+   "label": "Spinocerebellar Ataxia Type 7",
+   "synonyms": [
+    "SCA7",
+    "MONDO:0007168"
+   ],
+   "summary_plain": "Adult-onset progressive cerebellar ataxia accompanied by progressive cone-rod retinal dystrophy.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "OMIM:607208",
+   "type": "disease",
+   "label": "Dravet Syndrome",
+   "synonyms": [
+    "Severe Myoclonic Epilepsy of Infancy",
+    "MONDO:0011919"
+   ],
+   "summary_plain": "Severe childhood epilepsy syndrome commonly triggered by fever and linked to SCN1A channel loss of function.",
+   "cluster": "dee"
+  },
+  {
+   "id": "mech:loss-of-function",
+   "type": "mechanism",
+   "label": "Cav2.1 Loss of Function",
+   "synonyms": [
+    "P/Q haploinsufficiency"
+   ],
+   "summary_plain": "Decreased calcium influx at presynaptic terminals impairs neurotransmitter release in cerebellar circuits.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "mech:gain-of-function",
+   "type": "mechanism",
+   "label": "Cav2.1 Gain of Function",
+   "synonyms": [
+    "P/Q channel hyperactivity"
+   ],
+   "summary_plain": "Increased calcium influx at lower voltages facilitates cortical spreading depression and migraine aura.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "mech:polyq-toxicity",
+   "type": "mechanism",
+   "label": "Polyglutamine CAG Expansion Toxicity",
+   "synonyms": [
+    "PolyQ repeat expansion"
+   ],
+   "summary_plain": "Abnormally long glutamine tracts cause protein misfolding, aggregate buildup, and Purkinje cell death.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "mech:cortical-spreading-depression",
+   "type": "mechanism",
+   "label": "Cortical Spreading Depression",
+   "synonyms": [
+    "CSD"
+   ],
+   "summary_plain": "A slow wave of cellular depolarization in the cerebral cortex that triggers migraine aura and headache.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "mech:purkinje-hyperexcitability",
+   "type": "mechanism",
+   "label": "Purkinje Cell Pacemaking Instability",
+   "synonyms": [
+    "Cerebellar firing irregularity"
+   ],
+   "summary_plain": "Loss of regular high-frequency firing in Purkinje cells disrupts motor coordination outputs.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "mech:glutamate-clearance-failure",
+   "type": "mechanism",
+   "label": "Glutamate Clearance Impairment",
+   "synonyms": [
+    "Synaptic glutamate accumulation"
+   ],
+   "summary_plain": "Failure of astrocytic pumps or transporters leads to excessive extracellular glutamate and hyperexcitability.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "ClinVar:8487",
+   "type": "variant",
+   "label": "CACNA1A c.575G>A (p.Arg192Gln)",
+   "synonyms": [
+    "R192Q",
+    "legacy R192Q"
+   ],
+   "summary_plain": "Well-characterized gain-of-function missense variant causing familial hemiplegic migraine type 1.",
+   "cluster": "hemiplegic_migraine",
+   "meta": {
+    "clinical_significance": "Pathogenic",
+    "variation_id": "8487"
+   }
+  },
+  {
+   "id": "ClinVar:8504",
+   "type": "variant",
+   "label": "CACNA1A c.653C>T (p.Ser218Leu)",
+   "synonyms": [
+    "S218L",
+    "legacy S218L"
+   ],
+   "summary_plain": "Severe gain-of-function mutation causing hemiplegic migraine, delayed cerebral edema, and coma after mild trauma.",
+   "cluster": "hemiplegic_migraine",
+   "meta": {
+    "clinical_significance": "Pathogenic",
+    "variation_id": "8504"
+   }
+  },
+  {
+   "id": "ClinVar:8488",
+   "type": "variant",
+   "label": "CACNA1A c.1994C>T (p.Thr665Met) (legacy T666M)",
+   "synonyms": [
+    "T666M",
+    "p.Thr665Met"
+   ],
+   "summary_plain": "Pore region gain-of-function mutation causing severe familial hemiplegic migraine type 1.",
+   "cluster": "hemiplegic_migraine",
+   "meta": {
+    "clinical_significance": "Pathogenic",
+    "variation_id": "8488"
+   }
+  },
+  {
+   "id": "ClinVar:8507",
+   "type": "variant",
+   "label": "CACNA1A c.4633C>T (p.Arg1545Ter)",
+   "synonyms": [
+    "R1545X",
+    "Arg1545*"
+   ],
+   "summary_plain": "Nonsense truncating mutation causing loss of Cav2.1 channel function and episodic ataxia type 2.",
+   "cluster": "episodic_ataxia",
+   "meta": {
+    "clinical_significance": "Pathogenic",
+    "variation_id": "8507"
+   }
+  },
+  {
+   "id": "ClinVar:8495",
+   "type": "variant",
+   "label": "CACNA1A c.4979G>A (p.Arg1660His) (legacy R1666H)",
+   "synonyms": [
+    "R1666H",
+    "p.Arg1660His"
+   ],
+   "summary_plain": "Recurrent de novo missense variant causing severe developmental delay and early epileptic encephalopathy.",
+   "cluster": "dee",
+   "meta": {
+    "clinical_significance": "Pathogenic",
+    "variation_id": "8495"
+   }
+  },
+  {
+   "id": "HP:0001251",
+   "type": "phenotype",
+   "label": "Ataxia",
+   "synonyms": [
+    "Cerebellar ataxia"
+   ],
+   "summary_plain": "Lack of voluntary coordination of muscle movements including gait and limb control.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HP:0002131",
+   "type": "phenotype",
+   "label": "Episodic ataxia",
+   "synonyms": [
+    "Paroxysmal ataxia"
+   ],
+   "summary_plain": "Sudden recurring episodes of unsteady balance and clumsiness.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "HP:0000639",
+   "type": "phenotype",
+   "label": "Nystagmus",
+   "synonyms": [
+    "Involuntary eye oscillation"
+   ],
+   "summary_plain": "Rhythmic, involuntary movements of the eyes, often triggered by looking sideways.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HP:0001260",
+   "type": "phenotype",
+   "label": "Dysarthria",
+   "synonyms": [
+    "Slurred speech"
+   ],
+   "summary_plain": "Difficulty speaking clearly due to impaired coordination of speech muscles.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HP:0002077",
+   "type": "phenotype",
+   "label": "Migraine with aura",
+   "synonyms": [
+    "Classic migraine"
+   ],
+   "summary_plain": "Severe headaches preceded by sensory or visual changes such as flashing lights.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "HP:0002301",
+   "type": "phenotype",
+   "label": "Hemiplegia",
+   "synonyms": [
+    "Unilateral paralysis"
+   ],
+   "summary_plain": "Temporary or permanent paralysis affecting one side of the body.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "HP:0001250",
+   "type": "phenotype",
+   "label": "Seizure",
+   "synonyms": [
+    "Epileptic fit"
+   ],
+   "summary_plain": "Sudden, uncontrolled electrical disturbance in the brain altering behavior or awareness.",
+   "cluster": "dee"
+  },
+  {
+   "id": "HP:0002181",
+   "type": "phenotype",
+   "label": "Cerebral edema",
+   "synonyms": [
+    "Brain swelling"
+   ],
+   "summary_plain": "Accumulation of fluid in brain tissues that can cause pressure and coma after head trauma.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "HP:0001263",
+   "type": "phenotype",
+   "label": "Global developmental delay",
+   "synonyms": [
+    "Developmental delay"
+   ],
+   "summary_plain": "Delayed attainment of motor, language, cognitive, or social milestones in childhood.",
+   "cluster": "dee"
+  },
+  {
+   "id": "HP:0002321",
+   "type": "phenotype",
+   "label": "Vertigo",
+   "synonyms": [
+    "Spinning sensation"
+   ],
+   "summary_plain": "Sensation that the room is spinning or moving when standing or sitting.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "HP:0001252",
+   "type": "phenotype",
+   "label": "Hypotonia",
+   "synonyms": [
+    "Low muscle tone",
+    "Floppy infant"
+   ],
+   "summary_plain": "Decreased muscle tone causing floppiness and delayed motor development.",
+   "cluster": "dee"
+  },
+  {
+   "id": "HP:0001332",
+   "type": "phenotype",
+   "label": "Dystonia",
+   "synonyms": [
+    "Involuntary muscle contractions"
+   ],
+   "summary_plain": "Twisting, repetitive movements or abnormal postures caused by involuntary muscle contractions.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HP:0001257",
+   "type": "phenotype",
+   "label": "Spasticity",
+   "synonyms": [
+    "Muscle stiffness"
+   ],
+   "summary_plain": "Condition in which muscles stiffen or tighten, preventing normal fluid movement.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HP:0001272",
+   "type": "phenotype",
+   "label": "Cerebellar atrophy",
+   "synonyms": [
+    "Cerebellar degeneration"
+   ],
+   "summary_plain": "Progressive loss of tissue in the cerebellum visible on brain MRI scans.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "HP:0000750",
+   "type": "phenotype",
+   "label": "Delayed speech and language development",
+   "synonyms": [
+    "Speech delay"
+   ],
+   "summary_plain": "Late development of speech and expressive language skills in early childhood.",
+   "cluster": "dee"
+  },
+  {
+   "id": "HP:0002073",
+   "type": "phenotype",
+   "label": "Progressive cerebellar ataxia",
+   "synonyms": [
+    "Chronic ataxia"
+   ],
+   "summary_plain": "Slowly worsening lack of coordination and balance over years.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "HP:0002315",
+   "type": "phenotype",
+   "label": "Headache",
+   "synonyms": [
+    "Cephalea"
+   ],
+   "summary_plain": "Pain in the head or upper neck commonly accompanying migraine or paroxysmal neurological attacks.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "tx:acetazolamide",
+   "type": "treatment",
+   "label": "Acetazolamide",
+   "synonyms": [
+    "Diamox"
+   ],
+   "summary_plain": "Carbonic anhydrase inhibitor reducing episodic ataxia attacks by modifying pH and extracellular ions.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "tx:4-aminopyridine",
+   "type": "treatment",
+   "label": "4-Aminopyridine",
+   "synonyms": [
+    "Dalfampridine",
+    "Fampridine"
+   ],
+   "summary_plain": "Potassium channel blocker that restores regular pacemaking in Purkinje cells to prevent ataxia attacks.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "tx:verapamil",
+   "type": "treatment",
+   "label": "Verapamil",
+   "synonyms": [
+    "Calan",
+    "Isoptin"
+   ],
+   "summary_plain": "L-type calcium channel blocker used off-label for prophylaxis against hemiplegic migraine attacks.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "tx:flunarizine",
+   "type": "treatment",
+   "label": "Flunarizine",
+   "synonyms": [
+    "Sibelium"
+   ],
+   "summary_plain": "Dual calcium and sodium antagonist used internationally for migraine prophylaxis.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "tx:troriluzole",
+   "type": "treatment",
+   "label": "Troriluzole",
+   "synonyms": [
+    "BHV-4157"
+   ],
+   "summary_plain": "Prodrug of riluzole designed to enhance glial glutamate uptake and reduce cerebellar excitotoxicity.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "tx:sodium-valproate",
+   "type": "treatment",
+   "label": "Sodium Valproate",
+   "synonyms": [
+    "Depakote"
+   ],
+   "summary_plain": "Broad-spectrum anticonvulsant and migraine preventive agent enhancing GABA neurotransmission.",
+   "cluster": "dee"
+  },
+  {
+   "id": "tx:lamotrigine",
+   "type": "treatment",
+   "label": "Lamotrigine",
+   "synonyms": [
+    "Lamictal"
+   ],
+   "summary_plain": "Voltage-gated sodium channel blocker used for seizure prevention and migraine aura prophylaxis.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "tx:levetiracetam",
+   "type": "treatment",
+   "label": "Levetiracetam",
+   "synonyms": [
+    "Keppra"
+   ],
+   "summary_plain": "Antiepileptic drug binding SV2A vesicle protein to moderate neurotransmitter release in refractory seizures.",
+   "cluster": "dee"
+  },
+  {
+   "id": "tx:topiramate",
+   "type": "treatment",
+   "label": "Topiramate",
+   "synonyms": [
+    "Topamax"
+   ],
+   "summary_plain": "Broad-acting channel modulator and mild carbonic anhydrase inhibitor used for migraine prevention.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "org:cacna1a-foundation",
+   "type": "patient_group",
+   "label": "CACNA1A Foundation",
+   "synonyms": [
+    "CACNA1A Community"
+   ],
+   "summary_plain": "Leading international patient advocacy organization supporting families and funding CACNA1A research.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "org:national-ataxia-foundation",
+   "type": "patient_group",
+   "label": "National Ataxia Foundation",
+   "synonyms": [
+    "NAF"
+   ],
+   "summary_plain": "US advocacy group dedicated to accelerating treatments and cure for all forms of ataxia including EA2 and SCA6.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "org:ataxia-uk",
+   "type": "patient_group",
+   "label": "Ataxia UK",
+   "synonyms": [],
+   "summary_plain": "UK charity providing support, clinical guidelines, and research funding for cerebellar ataxias.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "org:euro-ataxia",
+   "type": "patient_group",
+   "label": "Euro-Ataxia",
+   "synonyms": [
+    "European Federation of Hereditary Ataxias"
+   ],
+   "summary_plain": "Federation of national ataxia patient associations in Europe coordinating transnational advocacy.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "org:ataxia-global-initiative",
+   "type": "patient_group",
+   "label": "Ataxia Global Initiative",
+   "synonyms": [
+    "AGI"
+   ],
+   "summary_plain": "Worldwide platform uniting clinicians, patient advocates, and industry for trial readiness in ataxias.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "org:rare-epilepsy-network",
+   "type": "patient_group",
+   "label": "Rare Epilepsy Network",
+   "synonyms": [
+    "REN"
+   ],
+   "summary_plain": "Collaborative network connecting rare developmental and epileptic encephalopathy communities.",
+   "cluster": "dee"
+  },
+  {
+   "id": "org:dravet-syndrome-foundation",
+   "type": "patient_group",
+   "label": "Dravet Syndrome Foundation",
+   "synonyms": [
+    "DSF"
+   ],
+   "summary_plain": "Patient organization funding channelopathy research and family support for SCN1A-related seizures.",
+   "cluster": "dee"
+  },
+  {
+   "id": "org:the-migraine-trust",
+   "type": "patient_group",
+   "label": "The Migraine Trust",
+   "synonyms": [],
+   "summary_plain": "UK charity funding research, promoting awareness, and providing support for severe migraine conditions.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "asset:cacna1a-patient-registry",
+   "type": "asset",
+   "label": "CACNA1A Connect (patient registry)",
+   "synonyms": [
+    "CACNA1A Connect"
+   ],
+   "summary_plain": "Registry where families share medical history so research reflects real life.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "asset:cacna1a-natural-history-study",
+   "type": "asset",
+   "label": "CACNA1A Natural History Study (Chung Lab, Boston Children's Hospital)",
+   "synonyms": [
+    "CACNA1A natural history study"
+   ],
+   "summary_plain": "Long-term study following people with CACNA1A conditions to learn how symptoms change over time.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "asset:tottering-mouse-model",
+   "type": "asset",
+   "label": "Tottering Mouse Model (Cacna1a tg)",
+   "synonyms": [
+    "JAX:000544",
+    "tottering tg"
+   ],
+   "summary_plain": "Recessive mouse model with Cacna1a mutation exhibiting episodic dystonia, absence seizures, and mild ataxia.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "asset:leaner-mouse-model",
+   "type": "asset",
+   "label": "Leaner Mouse Model (Cacna1a tg-la)",
+   "synonyms": [
+    "JAX:000545",
+    "leaner tg-la"
+   ],
+   "summary_plain": "Severe loss-of-function Cacna1a splicing mutant mouse showing cerebellar granule and Purkinje neurodegeneration.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "asset:rolling-nagoya-mouse",
+   "type": "asset",
+   "label": "Rolling Nagoya Mouse Model (Cacna1a tg-rol)",
+   "synonyms": [
+    "rolling nagoya"
+   ],
+   "summary_plain": "Spontaneous mouse mutant with reduced Cav2.1 channel activity displaying severe motor ataxia.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "asset:r192q-knockin-mouse",
+   "type": "asset",
+   "label": "R192Q Knock-in Mouse Model",
+   "synonyms": [
+    "FHM1 R192Q mouse"
+   ],
+   "summary_plain": "Gain-of-function knock-in mouse displaying lowered threshold and accelerated propagation of cortical spreading depression.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "asset:s218l-knockin-mouse",
+   "type": "asset",
+   "label": "S218L Knock-in Mouse Model",
+   "synonyms": [
+    "FHM1 S218L mouse"
+   ],
+   "summary_plain": "Severe gain-of-function model displaying susceptibility to lethal seizures and brain edema after mild concussive trigger.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "NCT01543750",
+   "type": "study",
+   "label": "4-Aminopyridine in Episodic Ataxia Type 2",
+   "synonyms": [
+    "4-AP EA2 Trial"
+   ],
+   "summary_plain": "Planned placebo-controlled trial of 4-aminopyridine in episodic ataxia type 2. It was withdrawn before enrolling.",
+   "cluster": "episodic_ataxia",
+   "meta": {
+    "overallStatus": "WITHDRAWN",
+    "phase": "PHASE2",
+    "sponsor": "University of California, Los Angeles"
+   }
+  },
+  {
+   "id": "NCT03701399",
+   "type": "study",
+   "label": "Troriluzole in Adult Participants With Spinocerebellar Ataxia",
+   "synonyms": [
+    "Biohaven SCA Phase 3"
+   ],
+   "summary_plain": "Phase 3 clinical trial testing troriluzole efficacy in patients with spinocerebellar ataxias including SCA6.",
+   "cluster": "polyq_sca",
+   "meta": {
+    "overallStatus": "ACTIVE_NOT_RECRUITING",
+    "phase": "PHASE3",
+    "sponsor": "Biohaven Pharmaceuticals, Inc."
+   }
+  },
+  {
+   "id": "NCT01060371",
+   "type": "study",
+   "label": "Natural History Study of and Genetic Modifiers in Spinocerebellar Ataxias",
+   "synonyms": [
+    "CRC-SCA Consortium"
+   ],
+   "summary_plain": "Longitudinal natural history study by the Clinical Research Consortium for SCAs.",
+   "cluster": "polyq_sca",
+   "meta": {
+    "overallStatus": "RECRUITING",
+    "phase": "NA",
+    "sponsor": "Lauren Moore / CRC-SCA Consortium"
+   }
+  },
+  {
+   "id": "person:arn-van-den-maagdenberg",
+   "type": "researcher",
+   "label": "Arn M.J.M. van den Maagdenberg",
+   "synonyms": [
+    "A.M.J.M. van den Maagdenberg"
+   ],
+   "summary_plain": "Professor at Leiden University Medical Center; pioneering investigator bridging FHM1, EA2, and Cav2.1 channel biology.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "person:joanna-jen",
+   "type": "researcher",
+   "label": "Joanna C. Jen",
+   "synonyms": [
+    "Joanna Jen MD PhD"
+   ],
+   "summary_plain": "Professor of Neurology at Icahn School of Medicine at Mount Sinai; international authority on Episodic Ataxia 2 and neurogenetics.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "person:michael-strupp",
+   "type": "researcher",
+   "label": "Michael Strupp",
+   "synonyms": [
+    "Prof. Michael Strupp"
+   ],
+   "summary_plain": "Professor of Neurology at LMU Munich; pioneered 4-aminopyridine as medical therapy for episodic ataxia and cerebellar dysfunction.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "person:christopher-gomez",
+   "type": "researcher",
+   "label": "Christopher M. Gomez",
+   "synonyms": [
+    "Christopher Gomez MD PhD"
+   ],
+   "summary_plain": "Professor at University of Chicago; discovered CACNA1A bicistronic expression of alpha1ACT driving SCA6 pathology.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "person:wendy-chung",
+   "type": "researcher",
+   "label": "Wendy K. Chung",
+   "synonyms": [
+    "Wendy Chung MD PhD"
+   ],
+   "summary_plain": "Chief of Pediatrics at Boston Children's / Harvard; principal investigator of the CACNA1A natural history study.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "person:daniela-pietrobon",
+   "type": "researcher",
+   "label": "Daniela Pietrobon",
+   "synonyms": [
+    "Prof. Daniela Pietrobon"
+   ],
+   "summary_plain": "Professor of Physiology at University of Padua; leading expert on biophysical gating mechanisms of Cav2.1 mutants in migraine.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "person:robert-baloh",
+   "type": "researcher",
+   "label": "Robert W. Baloh",
+   "synonyms": [
+    "Robert Baloh MD"
+   ],
+   "summary_plain": "Emeritus Professor of Neurology at UCLA; clinical pioneer who characterized episodic ataxia types and vestibulocerebellar disorders.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "person:thomas-klockgether",
+   "type": "researcher",
+   "label": "Thomas Klockgether",
+   "synonyms": [
+    "Prof. Thomas Klockgether"
+   ],
+   "summary_plain": "Director at DZNE Bonn; international leader of the EUROSCA natural history consortium in degenerative ataxias.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "person:stefan-pulst",
+   "type": "researcher",
+   "label": "Stefan M. Pulst",
+   "synonyms": [
+    "Stefan Pulst MD"
+   ],
+   "summary_plain": "Chair of Neurology at University of Utah; leader in spinocerebellar ataxia genetics, Purkinje cell channelopathy, and antisense therapies.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "funder:ninds-nih",
+   "type": "funder",
+   "label": "National Institute of Neurological Disorders and Stroke (NINDS)",
+   "synonyms": [
+    "NINDS",
+    "NIH"
+   ],
+   "summary_plain": "US federal institute funding biomedical research on the nervous system, channelopathies, and rare neurogenetic diseases.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "funder:chan-zuckerberg-initiative",
+   "type": "funder",
+   "label": "Chan Zuckerberg Initiative Rare As One",
+   "synonyms": [
+    "CZI"
+   ],
+   "summary_plain": "Philanthropic foundation providing grant funding and organizational capacity to rare disease patient communities.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "funder:european-joint-programme-rare-diseases",
+   "type": "funder",
+   "label": "European Joint Programme on Rare Diseases (EJP RD)",
+   "synonyms": [
+    "EJP RD"
+   ],
+   "summary_plain": "European research consortium funding transnational collaborative research and registries for rare diseases.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "PMID:8898206",
+   "type": "paper",
+   "label": "Ophoff et al. 1996 (Cell)",
+   "synonyms": [
+    "CACNA1A Discovery Paper"
+   ],
+   "summary_plain": "Landmark paper discovering that CACNA1A mutations cause both familial hemiplegic migraine and episodic ataxia type-2.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "PMID:8988170",
+   "type": "paper",
+   "label": "Zhuchenko et al. 1997 (Nat Genet)",
+   "synonyms": [
+    "SCA6 CAG Discovery"
+   ],
+   "summary_plain": "Discovered that small CAG repeat expansions in CACNA1A cause spinocerebellar ataxia type 6.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "PMID:15003170",
+   "type": "paper",
+   "label": "van den Maagdenberg et al. 2004 (Neuron)",
+   "synonyms": [
+    "FHM1 R192Q Mouse Paper"
+   ],
+   "summary_plain": "Engineered human Cacna1a R192Q knock-in migraine mouse model displaying increased cortical spreading depression.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "PMID:15136697",
+   "type": "paper",
+   "label": "Strupp et al. 2004 (Neurology)",
+   "synonyms": [
+    "4-AP EA2 Clinical Proof"
+   ],
+   "summary_plain": "Demonstrated successful clinical treatment of episodic ataxia type 2 attacks with potassium channel blocker 4-aminopyridine.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "PMID:23827678",
+   "type": "paper",
+   "label": "Du et al. 2013 (Cell)",
+   "synonyms": [
+    "alpha1ACT Gomez Discovery"
+   ],
+   "summary_plain": "Discovered that a second cistron within CACNA1A encodes alpha1ACT transcription factor driving SCA6 neurodegeneration.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "PMID:41775907",
+   "type": "paper",
+   "label": "Indelicato & Boesch 2026 (Cerebellum)",
+   "synonyms": [
+    "From genotype to phenotype review"
+   ],
+   "summary_plain": "Demonstrated genotype and age-at-onset drive vermian cerebellar atrophy in CACNA1A-related ataxias.",
+   "cluster": "cav21"
+  },
+  {
+   "id": "PMID:37555011",
+   "type": "paper",
+   "label": "Kessi et al. 2023 (Front Mol Neurosci)",
+   "synonyms": [
+    "CACNA1A DEE and Ataxia Review"
+   ],
+   "summary_plain": "Genotype-phenotype review of CACNA1A-related childhood neurodevelopmental disorders and epileptic encephalopathy.",
+   "cluster": "dee"
+  },
+  {
+   "id": "PMID:19285472",
+   "type": "paper",
+   "label": "Tottene et al. 2009 (Neuron)",
+   "synonyms": [
+    "Cav2.1 Cortical Glutamate"
+   ],
+   "summary_plain": "Demonstrated that enhanced synaptic glutamate release underlies spreading depression susceptibility in Cav2.1 knock-in mice.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "PMID:12539047",
+   "type": "paper",
+   "label": "De Fusco et al. 2003 (Nat Genet)",
+   "synonyms": [
+    "ATP1A2 FHM2 Discovery"
+   ],
+   "summary_plain": "Identified haploinsufficiency of ATP1A2 encoding Na+/K+ pump alpha-2 subunit in familial hemiplegic migraine type 2.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "PMID:16054936",
+   "type": "paper",
+   "label": "Dichgans et al. 2005 (Lancet)",
+   "synonyms": [
+    "SCN1A FHM3 Discovery"
+   ],
+   "summary_plain": "Identified mutation in neuronal voltage-gated sodium channel SCN1A in familial hemiplegic migraine.",
+   "cluster": "hemiplegic_migraine"
+  },
+  {
+   "id": "PMID:7842011",
+   "type": "paper",
+   "label": "Browne et al. 1994 (Nat Genet)",
+   "synonyms": [
+    "KCNA1 EA1 Discovery"
+   ],
+   "summary_plain": "Proved episodic ataxia/myokymia syndrome is caused by mutations in voltage-gated potassium channel KCNA1.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "PMID:16116111",
+   "type": "paper",
+   "label": "Jen et al. 2005 (Neurology)",
+   "synonyms": [
+    "EA6 SLC1A3 Paper"
+   ],
+   "summary_plain": "Discovered that mutation in glutamate transporter EAAT1 (SLC1A3) causes episodic ataxia, hemiplegia, and seizures.",
+   "cluster": "episodic_ataxia"
+  },
+  {
+   "id": "PMID:26377379",
+   "type": "paper",
+   "label": "Jacobi et al. 2015 (Lancet Neurol)",
+   "synonyms": [
+    "EUROSCA Natural History Overview"
+   ],
+   "summary_plain": "Long-term prospective disease progression study of spinocerebellar ataxia types 1, 2, 3, and 6 in EUROSCA cohort.",
+   "cluster": "polyq_sca"
+  },
+  {
+   "id": "NCT07221292",
+   "type": "study",
+   "label": "Pivotal Study of N-acetyl-L-leucine for CACNA1A",
+   "synonyms": [
+    "IB1001 CACNA1A"
+   ],
+   "summary_plain": "Phase 3 trial now recruiting people with CACNA1A conditions (SCA6, EA2, FHM1) to test N-acetyl-L-leucine against placebo.",
+   "cluster": "cav21",
+   "meta": {
+    "overallStatus": "RECRUITING",
+    "phase": "PHASE3",
+    "sponsor": "IntraBio Inc"
+   }
+  }
+ ],
+ "links": [
+  {
+   "source": "HGNC:1388",
+   "target": "OMIM:108500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "Episodic ataxia type 2 is caused by heterozygous mutation in CACNA1A."
+    }
+   ],
+   "contradicts": [],
+   "id": "L1"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "OMIM:141500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "Familial hemiplegic migraine-1 is caused by heterozygous missense mutation in CACNA1A."
+    }
+   ],
+   "contradicts": [],
+   "id": "L2"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "OMIM:183086",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "SCA6 is caused by heterozygous expansion of a CAG repeat in the CACNA1A gene."
+    }
+   ],
+   "contradicts": [],
+   "id": "L3"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "OMIM:617106",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "Developmental and epileptic encephalopathy-42 is caused by heterozygous de novo mutation in the CACNA1A gene."
+    }
+   ],
+   "contradicts": [],
+   "id": "L4"
+  },
+  {
+   "source": "HGNC:800",
+   "target": "OMIM:602481",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:800",
+     "quote": "FHM2 is caused by heterozygous mutation in the ATP1A2 gene."
+    }
+   ],
+   "contradicts": [],
+   "id": "L5"
+  },
+  {
+   "source": "HGNC:10585",
+   "target": "OMIM:609634",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10585",
+     "quote": "FHM3 is caused by heterozygous mutation in the SCN1A gene."
+    }
+   ],
+   "contradicts": [],
+   "id": "L6"
+  },
+  {
+   "source": "HGNC:10585",
+   "target": "OMIM:607208",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10585",
+     "quote": "Dravet syndrome is caused by heterozygous loss of function mutation in SCN1A."
+    }
+   ],
+   "contradicts": [],
+   "id": "L7"
+  },
+  {
+   "source": "HGNC:6218",
+   "target": "OMIM:160120",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6218",
+     "quote": "Episodic ataxia type 1 is caused by heterozygous mutation in KCNA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L8"
+  },
+  {
+   "source": "HGNC:1404",
+   "target": "OMIM:613855",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1404",
+     "quote": "Episodic ataxia type 5 is caused by heterozygous mutation in CACNB4."
+    }
+   ],
+   "contradicts": [],
+   "id": "L9"
+  },
+  {
+   "source": "HGNC:10941",
+   "target": "OMIM:612656",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10941",
+     "quote": "Episodic ataxia type 6 is caused by heterozygous mutation in SLC1A3."
+    }
+   ],
+   "contradicts": [],
+   "id": "L10"
+  },
+  {
+   "source": "HGNC:10548",
+   "target": "OMIM:164400",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10548",
+     "quote": "SCA1 is caused by heterozygous expansion of a CAG trinucleotide repeat in ATXN1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L11"
+  },
+  {
+   "source": "HGNC:10555",
+   "target": "OMIM:183090",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10555",
+     "quote": "SCA2 is caused by heterozygous expansion of a CAG trinucleotide repeat in ATXN2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L12"
+  },
+  {
+   "source": "HGNC:7106",
+   "target": "OMIM:109150",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7106",
+     "quote": "SCA3 is caused by heterozygous expansion of a CAG repeat in ATXN3."
+    }
+   ],
+   "contradicts": [],
+   "id": "L13"
+  },
+  {
+   "source": "HGNC:10560",
+   "target": "OMIM:164500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10560",
+     "quote": "SCA7 is caused by heterozygous expansion of a CAG trinucleotide repeat in ATXN7."
+    }
+   ],
+   "contradicts": [],
+   "id": "L14"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "ClinVar:8487",
+   "type": "has_variant",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "NM_001127221.2:c.574C>T (p.Arg192Gln) Pathogenic for Familial hemiplegic migraine 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L15"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "ClinVar:8504",
+   "type": "has_variant",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "NM_001127221.2:c.653C>T (p.Ser218Leu) Pathogenic for Familial hemiplegic migraine 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L16"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "ClinVar:8488",
+   "type": "has_variant",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "NM_001127221.2:c.1997C>T (p.Thr666Met) Pathogenic for Familial hemiplegic migraine 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L17"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "ClinVar:8507",
+   "type": "has_variant",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "NM_001127221.2:c.4072C>T (p.Arg1358Ter) Pathogenic for Episodic ataxia type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L18"
+  },
+  {
+   "source": "HGNC:1388",
+   "target": "ClinVar:8495",
+   "type": "has_variant",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "NM_001127221.2:c.4997G>A (p.Arg1666His) Pathogenic for CACNA1A-related epileptic encephalopathy."
+    }
+   ],
+   "contradicts": [],
+   "id": "L19"
+  },
+  {
+   "source": "ClinVar:8487",
+   "target": "mech:gain-of-function",
+   "type": "variant_effect",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "R192Q mutation causes a gain of function with shift of activation to more hyperpolarized potentials."
+    }
+   ],
+   "contradicts": [],
+   "id": "L20"
+  },
+  {
+   "source": "ClinVar:8504",
+   "target": "mech:gain-of-function",
+   "type": "variant_effect",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "S218L mutation causes massive increase in open probability and hyperpolarizing activation shift."
+    }
+   ],
+   "contradicts": [],
+   "id": "L21"
+  },
+  {
+   "source": "ClinVar:8488",
+   "target": "mech:gain-of-function",
+   "type": "variant_effect",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17967913/",
+     "quote": "Pore mutations like T666M cause enhanced calcium influx at single channel level."
+    }
+   ],
+   "contradicts": [],
+   "id": "L22"
+  },
+  {
+   "source": "ClinVar:8507",
+   "target": "mech:loss-of-function",
+   "type": "variant_effect",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Truncation mutations in EA2 result in loss of functional Cav2.1 channel expression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L23"
+  },
+  {
+   "source": "ClinVar:8487",
+   "target": "OMIM:141500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/8487/",
+     "quote": "R192Q identified in multiple families with classic FHM1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L24"
+  },
+  {
+   "source": "ClinVar:8504",
+   "target": "OMIM:141500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/8504/",
+     "quote": "S218L causes severe FHM1 with trauma-induced cerebral edema and coma."
+    }
+   ],
+   "contradicts": [],
+   "id": "L25"
+  },
+  {
+   "source": "ClinVar:8488",
+   "target": "OMIM:141500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/8488/",
+     "quote": "T666M causes typical and severe hemiplegic migraine type 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L26"
+  },
+  {
+   "source": "ClinVar:8507",
+   "target": "OMIM:108500",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/8507/",
+     "quote": "Premature termination codon R1358Ter causes Episodic Ataxia type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L27"
+  },
+  {
+   "source": "ClinVar:8495",
+   "target": "OMIM:617106",
+   "type": "causes",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinVar",
+     "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/8495/",
+     "quote": "R1666H confirmed de novo in children with DEE42."
+    }
+   ],
+   "contradicts": [],
+   "id": "L28"
+  },
+  {
+   "source": "mech:loss-of-function",
+   "target": "OMIM:108500",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Loss-of-function mutations and haploinsufficiency of Cav2.1 underlie episodic ataxia type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L29"
+  },
+  {
+   "source": "mech:gain-of-function",
+   "target": "OMIM:141500",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Cav2.1 gain of function facilitates cortical spreading depression in hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L30"
+  },
+  {
+   "source": "mech:polyq-toxicity",
+   "target": "OMIM:183086",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24074887/",
+     "quote": "CAG expansion in CACNA1A bicistronic alpha1ACT fragment mediates Purkinje cell neurotoxicity in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L31"
+  },
+  {
+   "source": "mech:polyq-toxicity",
+   "target": "OMIM:164400",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://omim.org/entry/164400",
+     "quote": "Polyglutamine repeat expansion causes Purkinje cell degeneration in SCA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L32"
+  },
+  {
+   "source": "mech:polyq-toxicity",
+   "target": "OMIM:183090",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://omim.org/entry/183090",
+     "quote": "Polyglutamine repeat expansion in ataxin-2 causes neurodegeneration in SCA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L33"
+  },
+  {
+   "source": "mech:polyq-toxicity",
+   "target": "OMIM:109150",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://omim.org/entry/109150",
+     "quote": "Polyglutamine tract expansion in ataxin-3 produces cytotoxic aggregates in SCA3."
+    }
+   ],
+   "contradicts": [],
+   "id": "L34"
+  },
+  {
+   "source": "mech:polyq-toxicity",
+   "target": "OMIM:164500",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://omim.org/entry/164500",
+     "quote": "Expanded polyQ tract in ataxin-7 causes cerebellar and retinal neurodegeneration in SCA7."
+    }
+   ],
+   "contradicts": [],
+   "id": "L35"
+  },
+  {
+   "source": "mech:gain-of-function",
+   "target": "mech:cortical-spreading-depression",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17967913/",
+     "quote": "Enhanced presynaptic Ca2+ influx via mutated Cav2.1 channels facilitates induction of cortical spreading depression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L36"
+  },
+  {
+   "source": "mech:loss-of-function",
+   "target": "mech:purkinje-hyperexcitability",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15004139/",
+     "quote": "Decreased P/Q current destabilizes precision pacemaking in cerebellar Purkinje neurons."
+    }
+   ],
+   "contradicts": [],
+   "id": "L37"
+  },
+  {
+   "source": "mech:glutamate-clearance-failure",
+   "target": "mech:cortical-spreading-depression",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/11867768/",
+     "quote": "Impaired astrocytic K+ and glutamate clearance lowers threshold for cortical spreading depression in FHM2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L38"
+  },
+  {
+   "source": "mech:glutamate-clearance-failure",
+   "target": "OMIM:612656",
+   "type": "disrupts",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19364908/",
+     "quote": "EAAT1 glutamate transporter dysfunction impairs synaptic clearance driving EA6 episodes."
+    }
+   ],
+   "contradicts": [],
+   "id": "L39"
+  },
+  {
+   "source": "HGNC:800",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:800",
+     "quote": "Both CACNA1A and ATP1A2 cause familial hemiplegic migraine by promoting cortical spreading depression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L40"
+  },
+  {
+   "source": "HGNC:10585",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10585",
+     "quote": "SCN1A and CACNA1A encode voltage-gated ion channels causing hemiplegic migraine through neuronal hyperexcitability."
+    }
+   ],
+   "contradicts": [],
+   "id": "L41"
+  },
+  {
+   "source": "HGNC:6218",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:6218",
+     "quote": "KCNA1 and CACNA1A are cerebellar ion channels causing episodic ataxias with responsive episodes."
+    }
+   ],
+   "contradicts": [],
+   "id": "L42"
+  },
+  {
+   "source": "HGNC:1404",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1404",
+     "quote": "CACNB4 encodes the beta-4 auxiliary subunit directly interacting with CACNA1A alpha-1A subunit."
+    }
+   ],
+   "contradicts": [],
+   "id": "L43"
+  },
+  {
+   "source": "HGNC:10941",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10941",
+     "quote": "Mutations in SLC1A3 cause EA6 with overlapping clinical features of episodic ataxia and hemiplegia."
+    }
+   ],
+   "contradicts": [],
+   "id": "L44"
+  },
+  {
+   "source": "HGNC:10548",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10548",
+     "quote": "ATXN1 and CACNA1A share polyglutamine CAG expansion mechanism driving cerebellar Purkinje degeneration."
+    }
+   ],
+   "contradicts": [],
+   "id": "L45"
+  },
+  {
+   "source": "HGNC:10555",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10555",
+     "quote": "ATXN2 and CACNA1A both manifest pathogenic CAG trinucleotide repeat expansions in hereditary ataxia."
+    }
+   ],
+   "contradicts": [],
+   "id": "L46"
+  },
+  {
+   "source": "HGNC:7106",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7106",
+     "quote": "ATXN3 and CACNA1A share autosomal dominant CAG trinucleotide expansion pathology."
+    }
+   ],
+   "contradicts": [],
+   "id": "L47"
+  },
+  {
+   "source": "HGNC:10560",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:10560",
+     "quote": "ATXN7 and CACNA1A both cause dominant polyglutamine cerebellar ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L48"
+  },
+  {
+   "source": "HGNC:1389",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1389",
+     "quote": "CACNA1B (Cav2.2) and CACNA1A (Cav2.1) are paralogous presynaptic calcium channels sharing gating homology."
+    }
+   ],
+   "contradicts": [],
+   "id": "L49"
+  },
+  {
+   "source": "HGNC:1392",
+   "target": "HGNC:1388",
+   "type": "shares_mechanism",
+   "status": "observed",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "source": "OMIM",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1392",
+     "quote": "CACNA1E (Cav2.3) and CACNA1A both cause infantile epileptic encephalopathies when mutated."
+    }
+   ],
+   "contradicts": [],
+   "id": "L50"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0002131",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002131",
+     "quote": "Episodic ataxia is the hallmark cardinal phenotype of EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L51"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0000639",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0000639",
+     "quote": "Interictal nystagmus (gaze-evoked or downbeat) is highly prevalent in EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L52"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0001260",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001260",
+     "quote": "Dysarthria occurs during attacks and in interictal stages of EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L53"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0002321",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002321",
+     "quote": "Vertigo is a frequent precipitating symptom of episodic ataxia attacks."
+    }
+   ],
+   "contradicts": [],
+   "id": "L54"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Baseline progressive cerebellar ataxia develops in older adults with EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L55"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0001272",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001272",
+     "quote": "Cerebellar vermian atrophy is observed on MRI in longstanding EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L56"
+  },
+  {
+   "source": "OMIM:108500",
+   "target": "HP:0001332",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001332",
+     "quote": "Dystonia and dystonic posturing can accompany episodic ataxia attacks."
+    }
+   ],
+   "contradicts": [],
+   "id": "L57"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0002077",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002077",
+     "quote": "Migraine with aura is defining manifestation of FHM1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L58"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0002301",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002301",
+     "quote": "Transient motor hemiplegia during migraine aura defines hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L59"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0002181",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002181",
+     "quote": "Severe FHM1 cases (e.g. S218L) exhibit acute cerebral edema following minor head trauma."
+    }
+   ],
+   "contradicts": [],
+   "id": "L60"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0001250",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001250",
+     "quote": "Epileptic seizures occur in severe manifestations of hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L61"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0002315",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002315",
+     "quote": "Pulsating severe headache is the principal symptom of FHM1 episodes."
+    }
+   ],
+   "contradicts": [],
+   "id": "L62"
+  },
+  {
+   "source": "OMIM:141500",
+   "target": "HP:0000639",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.88,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0000639",
+     "quote": "Permanent cerebellar signs including nystagmus occur in families with FHM1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L63"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Progressive cerebellar ataxia is the core feature of SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L64"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0002073",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002073",
+     "quote": "Progressive course of cerebellar unsteadiness over decades in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L65"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0000639",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0000639",
+     "quote": "Downbeat nystagmus is a frequent early ocular sign in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L66"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0001260",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001260",
+     "quote": "Progressive scanning dysarthria accompanies gait ataxia in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L67"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0001272",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001272",
+     "quote": "Marked cerebellar vermis and hemispheric atrophy on brain neuroimaging in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L68"
+  },
+  {
+   "source": "OMIM:183086",
+   "target": "HP:0001257",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001257",
+     "quote": "Mild pyramidal spasticity and brisk reflexes can develop late in SCA6 course."
+    }
+   ],
+   "contradicts": [],
+   "id": "L69"
+  },
+  {
+   "source": "OMIM:617106",
+   "target": "HP:0001250",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001250",
+     "quote": "Intractable infantile epileptic seizures characterize DEE42."
+    }
+   ],
+   "contradicts": [],
+   "id": "L70"
+  },
+  {
+   "source": "OMIM:617106",
+   "target": "HP:0001263",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001263",
+     "quote": "Severe global developmental delay and intellectual disability in DEE42."
+    }
+   ],
+   "contradicts": [],
+   "id": "L71"
+  },
+  {
+   "source": "OMIM:617106",
+   "target": "HP:0001252",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001252",
+     "quote": "Congenital hypotonia is frequently the initial presentation of DEE42."
+    }
+   ],
+   "contradicts": [],
+   "id": "L72"
+  },
+  {
+   "source": "OMIM:617106",
+   "target": "HP:0000750",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0000750",
+     "quote": "Severe speech and language impairment is universal in DEE42 children."
+    }
+   ],
+   "contradicts": [],
+   "id": "L73"
+  },
+  {
+   "source": "OMIM:617106",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Non-progressive congenital cerebellar ataxia occurs in CACNA1A encephalopathy."
+    }
+   ],
+   "contradicts": [],
+   "id": "L74"
+  },
+  {
+   "source": "OMIM:160120",
+   "target": "HP:0002131",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002131",
+     "quote": "Brief episodes of ataxia lasting seconds to minutes define EA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L75"
+  },
+  {
+   "source": "OMIM:602481",
+   "target": "HP:0002301",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002301",
+     "quote": "Hemiplegia during migraine attacks characterizes FHM2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L76"
+  },
+  {
+   "source": "OMIM:602481",
+   "target": "HP:0001250",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001250",
+     "quote": "Seizures can accompany hemiplegic migraine episodes in FHM2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L77"
+  },
+  {
+   "source": "OMIM:609634",
+   "target": "HP:0002301",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0002301",
+     "quote": "Transient hemiparesis or hemiplegia during aura in FHM3."
+    }
+   ],
+   "contradicts": [],
+   "id": "L78"
+  },
+  {
+   "source": "OMIM:607208",
+   "target": "HP:0001250",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001250",
+     "quote": "Febrile and unprovoked refractory seizures characterize Dravet syndrome."
+    }
+   ],
+   "contradicts": [],
+   "id": "L79"
+  },
+  {
+   "source": "OMIM:607208",
+   "target": "HP:0001263",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001263",
+     "quote": "Developmental plateauing and regression in Dravet syndrome."
+    }
+   ],
+   "contradicts": [],
+   "id": "L80"
+  },
+  {
+   "source": "OMIM:164400",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Cerebellar ataxia is the presenting symptom in SCA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L81"
+  },
+  {
+   "source": "OMIM:164400",
+   "target": "HP:0001257",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001257",
+     "quote": "Prominent spasticity and hyperreflexia develop in SCA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L82"
+  },
+  {
+   "source": "OMIM:183090",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Progressive cerebellar ataxia is universal in SCA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L83"
+  },
+  {
+   "source": "OMIM:109150",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Gait and limb ataxia are cardinal features of SCA3."
+    }
+   ],
+   "contradicts": [],
+   "id": "L84"
+  },
+  {
+   "source": "OMIM:164500",
+   "target": "HP:0001251",
+   "type": "has_phenotype",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0001251",
+     "quote": "Severe progressive ataxia manifests in SCA7 patients."
+    }
+   ],
+   "contradicts": [],
+   "id": "L85"
+  },
+  {
+   "source": "tx:acetazolamide",
+   "target": "OMIM:108500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Acetazolamide is standard first-line therapy dramatically decreasing attack frequency in EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L86"
+  },
+  {
+   "source": "tx:acetazolamide",
+   "target": "OMIM:160120",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12702710/",
+     "quote": "Acetazolamide partially controls attacks in some patients with episodic ataxia type 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L87"
+  },
+  {
+   "source": "tx:acetazolamide",
+   "target": "OMIM:141500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.7,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Acetazolamide shows variable response in FHM1; some patients report benefit while others show lack of efficacy."
+    }
+   ],
+   "contradicts": [],
+   "id": "L88"
+  },
+  {
+   "source": "tx:acetazolamide",
+   "target": "HP:0002131",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Carbonic anhydrase inhibition aborts episodic ataxia attacks."
+    }
+   ],
+   "contradicts": [],
+   "id": "L89"
+  },
+  {
+   "source": "tx:4-aminopyridine",
+   "target": "OMIM:108500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15004139/",
+     "quote": "4-Aminopyridine significantly reduces attack frequency in patients with episodic ataxia type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L90"
+  },
+  {
+   "source": "tx:4-aminopyridine",
+   "target": "HP:0002131",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15004139/",
+     "quote": "Potassium channel blockade prevents paroxysmal ataxia attacks."
+    }
+   ],
+   "contradicts": [],
+   "id": "L91"
+  },
+  {
+   "source": "tx:4-aminopyridine",
+   "target": "HP:0000639",
+   "type": "treats",
+   "status": "observed",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "HPO",
+     "url": "https://hpo.jax.org/browse/term/HP:0000639",
+     "quote": "4-Aminopyridine suppresses downbeat nystagmus by restoring cerebellar Purkinje cell inhibition."
+    }
+   ],
+   "contradicts": [],
+   "id": "L92"
+  },
+  {
+   "source": "tx:verapamil",
+   "target": "OMIM:141500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Calcium channel blockers such as verapamil are used off-label for prophylaxis in FHM."
+    }
+   ],
+   "contradicts": [],
+   "id": "L93"
+  },
+  {
+   "source": "tx:flunarizine",
+   "target": "OMIM:141500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Flunarizine reduces frequency and severity of hemiplegic migraine attacks."
+    }
+   ],
+   "contradicts": [],
+   "id": "L94"
+  },
+  {
+   "source": "tx:lamotrigine",
+   "target": "OMIM:141500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Lamotrigine reduces aura frequency and motor episodes in hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L95"
+  },
+  {
+   "source": "tx:topiramate",
+   "target": "OMIM:141500",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/29780183/",
+     "quote": "Topiramate is commonly employed for preventive therapy in hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L96"
+  },
+  {
+   "source": "tx:troriluzole",
+   "target": "OMIM:183086",
+   "type": "treats",
+   "status": "inferred",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT03408379",
+     "quote": "Phase 3 trial evaluating whether troriluzole slows disease progression in SCA genotypes including SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L97"
+  },
+  {
+   "source": "tx:troriluzole",
+   "target": "OMIM:164400",
+   "type": "treats",
+   "status": "inferred",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT03408379",
+     "quote": "Troriluzole trial cohort includes genetically confirmed SCA1 participants."
+    }
+   ],
+   "contradicts": [],
+   "id": "L98"
+  },
+  {
+   "source": "tx:troriluzole",
+   "target": "OMIM:183090",
+   "type": "treats",
+   "status": "inferred",
+   "confidence": 0.6,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT03408379",
+     "quote": "Troriluzole trial cohort includes genetically confirmed SCA2 participants."
+    }
+   ],
+   "contradicts": [],
+   "id": "L99"
+  },
+  {
+   "source": "tx:sodium-valproate",
+   "target": "OMIM:617106",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33246834/",
+     "quote": "Valproate is frequently prescribed to control seizures in CACNA1A-related epileptic encephalopathy."
+    }
+   ],
+   "contradicts": [],
+   "id": "L100"
+  },
+  {
+   "source": "tx:sodium-valproate",
+   "target": "HP:0001250",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33246834/",
+     "quote": "Sodium valproate is an established anti-seizure medication for childhood epileptic spasms."
+    }
+   ],
+   "contradicts": [],
+   "id": "L101"
+  },
+  {
+   "source": "tx:levetiracetam",
+   "target": "OMIM:617106",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.85,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33246834/",
+     "quote": "Levetiracetam used as broad-spectrum add-on therapy for CACNA1A encephalopathy seizures."
+    }
+   ],
+   "contradicts": [],
+   "id": "L102"
+  },
+  {
+   "source": "tx:levetiracetam",
+   "target": "HP:0001250",
+   "type": "treats",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33246834/",
+     "quote": "Levetiracetam effectively suppresses generalized and focal motor seizures."
+    }
+   ],
+   "contradicts": [],
+   "id": "L103"
+  },
+  {
+   "source": "NCT01543750",
+   "target": "OMIM:108500",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01543750",
+     "quote": "4-Aminopyridine in Episodic Ataxia Type 2 randomized clinical study."
+    }
+   ],
+   "contradicts": [],
+   "id": "L104"
+  },
+  {
+   "source": "NCT03701399",
+   "target": "OMIM:183086",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT03701399",
+     "quote": "Efficacy of BHV-4157 in Subjects With Spinocerebellar Ataxia including SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L105"
+  },
+  {
+   "source": "NCT01060371",
+   "target": "OMIM:183086",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01060371",
+     "quote": "Clinical Research Consortium for Spinocerebellar Ataxias follows SCA6 cohorts."
+    }
+   ],
+   "contradicts": [],
+   "id": "L106"
+  },
+  {
+   "source": "NCT01060371",
+   "target": "OMIM:164400",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01060371",
+     "quote": "CRC-SCA Consortium follows SCA1 natural history cohorts."
+    }
+   ],
+   "contradicts": [],
+   "id": "L107"
+  },
+  {
+   "source": "asset:cacna1a-patient-registry",
+   "target": "HGNC:1388",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "CACNA1A Foundation",
+     "url": "https://www.cacna1a.org/participate-research",
+     "quote": "focus our data collection efforts on having families enroll in CACNA1A Connect"
+    }
+   ],
+   "contradicts": [],
+   "id": "L108"
+  },
+  {
+   "source": "asset:cacna1a-natural-history-study",
+   "target": "HGNC:1388",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "CACNA1A Foundation",
+     "url": "https://www.cacna1a.org/participate-research",
+     "quote": "the CACNA1A Foundation has developed a comprehensive Natural History Study in collaboration with Dr. Wendy Chung and her team at Boston Children's Hospital to understand CACNA1A-related disorders."
+    }
+   ],
+   "contradicts": [],
+   "id": "L109"
+  },
+  {
+   "source": "asset:tottering-mouse-model",
+   "target": "OMIM:108500",
+   "type": "model_of",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Jackson Laboratory",
+     "url": "https://www.jax.org/strain/000544",
+     "quote": "Cacna1a<tg> tottering mice exhibit ataxia and paroxysmal dystonia modeling human CACNA1A channel loss."
+    }
+   ],
+   "contradicts": [],
+   "id": "L110"
+  },
+  {
+   "source": "asset:leaner-mouse-model",
+   "target": "OMIM:108500",
+   "type": "model_of",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Jackson Laboratory",
+     "url": "https://www.jax.org/strain/000545",
+     "quote": "Cacna1a<tg-la> leaner mutation disrupts alpha1A splicing causing severe cerebellar neurodegeneration."
+    }
+   ],
+   "contradicts": [],
+   "id": "L111"
+  },
+  {
+   "source": "asset:rolling-nagoya-mouse",
+   "target": "OMIM:108500",
+   "type": "model_of",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Rolling Nagoya Cacna1a mutant mouse displays cerebellar motor coordination impairment."
+    }
+   ],
+   "contradicts": [],
+   "id": "L112"
+  },
+  {
+   "source": "asset:r192q-knockin-mouse",
+   "target": "OMIM:141500",
+   "type": "model_of",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Cacna1a R192Q knock-in mouse models human familial hemiplegic migraine type 1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L113"
+  },
+  {
+   "source": "asset:s218l-knockin-mouse",
+   "target": "OMIM:141500",
+   "type": "model_of",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Cacna1a S218L knock-in mouse reproduces severe human FHM1 attacks and brain edema."
+    }
+   ],
+   "contradicts": [],
+   "id": "L114"
+  },
+  {
+   "source": "org:cacna1a-foundation",
+   "target": "HGNC:1388",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "CACNA1A Foundation supports families and drives research across all CACNA1A allelic disorders."
+    }
+   ],
+   "contradicts": [],
+   "id": "L115"
+  },
+  {
+   "source": "org:cacna1a-foundation",
+   "target": "asset:cacna1a-patient-registry",
+   "type": "funds",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "CACNA1A Foundation",
+     "url": "https://www.cacna1a.org/participate-research",
+     "quote": "focus our data collection efforts on having families enroll in CACNA1A Connect"
+    }
+   ],
+   "contradicts": [],
+   "id": "L116"
+  },
+  {
+   "source": "org:cacna1a-foundation",
+   "target": "asset:cacna1a-natural-history-study",
+   "type": "funds",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "CACNA1A Foundation",
+     "url": "https://www.cacna1a.org/participate-research",
+     "quote": "the CACNA1A Foundation has developed a comprehensive Natural History Study in collaboration with Dr. Wendy Chung and her team at Boston Children's Hospital to understand CACNA1A-related disorders."
+    }
+   ],
+   "contradicts": [],
+   "id": "L117"
+  },
+  {
+   "source": "org:national-ataxia-foundation",
+   "target": "OMIM:108500",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://ataxia.org",
+     "quote": "NAF supports patient resources, clinical trials, and research for Episodic Ataxia type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L118"
+  },
+  {
+   "source": "org:national-ataxia-foundation",
+   "target": "OMIM:183086",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://ataxia.org",
+     "quote": "NAF maintains disease programs and educational resources specifically for SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L119"
+  },
+  {
+   "source": "org:national-ataxia-foundation",
+   "target": "OMIM:164400",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://ataxia.org",
+     "quote": "NAF funds scientific grants and patient programs for SCA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L120"
+  },
+  {
+   "source": "org:ataxia-uk",
+   "target": "OMIM:108500",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://www.ataxia.org.uk",
+     "quote": "Ataxia UK publishes medical guidelines and funds registry initiatives for episodic ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L121"
+  },
+  {
+   "source": "org:ataxia-uk",
+   "target": "OMIM:183086",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://www.ataxia.org.uk",
+     "quote": "Ataxia UK provides accredited guidance for individuals with SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L122"
+  },
+  {
+   "source": "org:euro-ataxia",
+   "target": "OMIM:108500",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://www.euroataxia.org",
+     "quote": "Euro-Ataxia coordinates European advocacy for rare hereditary ataxias including EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L123"
+  },
+  {
+   "source": "org:ataxia-global-initiative",
+   "target": "OMIM:183086",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://ataxia-global-initiative.net",
+     "quote": "AGI fosters clinical trial readiness in autosomal dominant ataxias including SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L124"
+  },
+  {
+   "source": "org:rare-epilepsy-network",
+   "target": "OMIM:617106",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://www.rareepilepsynetwork.org",
+     "quote": "REN connects CACNA1A families with rare epilepsy resources and registries."
+    }
+   ],
+   "contradicts": [],
+   "id": "L125"
+  },
+  {
+   "source": "org:dravet-syndrome-foundation",
+   "target": "OMIM:607208",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://dravetfoundation.org",
+     "quote": "Dravet Syndrome Foundation funds channelopathy research for SCN1A."
+    }
+   ],
+   "contradicts": [],
+   "id": "L126"
+  },
+  {
+   "source": "org:the-migraine-trust",
+   "target": "OMIM:141500",
+   "type": "registry_for",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "Patient Group",
+     "url": "https://migrainetrust.org",
+     "quote": "The Migraine Trust provides verified evidence resources on hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L127"
+  },
+  {
+   "source": "funder:ninds-nih",
+   "target": "person:joanna-jen",
+   "type": "funds",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "NIH RePORTER",
+     "url": "https://reporter.nih.gov",
+     "quote": "NINDS grant support for Episodic Ataxia Consortium and CACNA1A genetic studies."
+    }
+   ],
+   "contradicts": [],
+   "id": "L128"
+  },
+  {
+   "source": "funder:ninds-nih",
+   "target": "person:wendy-chung",
+   "type": "funds",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "NIH RePORTER",
+     "url": "https://reporter.nih.gov",
+     "quote": "NIH NINDS funding for rare genetic disorders and CACNA1A clinical phenotyping."
+    }
+   ],
+   "contradicts": [],
+   "id": "L129"
+  },
+  {
+   "source": "funder:ninds-nih",
+   "target": "person:christopher-gomez",
+   "type": "funds",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "NIH RePORTER",
+     "url": "https://reporter.nih.gov",
+     "quote": "NINDS R01 funding for alpha1ACT pathogenic mechanisms in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L130"
+  },
+  {
+   "source": "funder:ninds-nih",
+   "target": "person:stefan-pulst",
+   "type": "funds",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "NIH RePORTER",
+     "url": "https://reporter.nih.gov",
+     "quote": "NINDS funding for spinocerebellar ataxia pathophysiology and oligonucleotide therapeutics."
+    }
+   ],
+   "contradicts": [],
+   "id": "L131"
+  },
+  {
+   "source": "funder:ninds-nih",
+   "target": "NCT01060371",
+   "type": "funds",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01060371",
+     "quote": "NINDS multicenter grant U54NS065151 funding the Clinical Research Consortium for SCAs."
+    }
+   ],
+   "contradicts": [],
+   "id": "L132"
+  },
+  {
+   "source": "funder:chan-zuckerberg-initiative",
+   "target": "org:cacna1a-foundation",
+   "type": "funds",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "CZI",
+     "url": "https://chanzuckerberg.com/science/programs-resources/rare-as-one/",
+     "quote": "CACNA1A Foundation is a grantee of the Chan Zuckerberg Initiative Rare As One Network."
+    }
+   ],
+   "contradicts": [],
+   "id": "L133"
+  },
+  {
+   "source": "funder:european-joint-programme-rare-diseases",
+   "target": "org:euro-ataxia",
+   "type": "funds",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "EJP RD",
+     "url": "https://www.ejprarediseases.org",
+     "quote": "EJP RD funds European clinical networks and patient partnership in rare ataxia research."
+    }
+   ],
+   "contradicts": [],
+   "id": "L134"
+  },
+  {
+   "source": "person:arn-van-den-maagdenberg",
+   "target": "OMIM:141500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "van den Maagdenberg generated and characterized seminal FHM1 mouse models."
+    }
+   ],
+   "contradicts": [],
+   "id": "L135"
+  },
+  {
+   "source": "person:arn-van-den-maagdenberg",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Co-author on discovery of CACNA1A mutations in EA2 and FHM1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L136"
+  },
+  {
+   "source": "person:arn-van-den-maagdenberg",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Pioneering investigator of CACNA1A genetics and physiology."
+    }
+   ],
+   "contradicts": [],
+   "id": "L137"
+  },
+  {
+   "source": "person:arn-van-den-maagdenberg",
+   "target": "asset:r192q-knockin-mouse",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Developed and validated the R192Q knock-in mouse at Leiden."
+    }
+   ],
+   "contradicts": [],
+   "id": "L138"
+  },
+  {
+   "source": "person:arn-van-den-maagdenberg",
+   "target": "asset:s218l-knockin-mouse",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/14999285/",
+     "quote": "Developed and characterized the S218L knock-in mouse model."
+    }
+   ],
+   "contradicts": [],
+   "id": "L139"
+  },
+  {
+   "source": "person:joanna-jen",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19364908/",
+     "quote": "Leading investigator on clinical and molecular characterization of Episodic Ataxia 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L140"
+  },
+  {
+   "source": "person:joanna-jen",
+   "target": "OMIM:612656",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19364908/",
+     "quote": "Discovered SLC1A3 mutation in episodic ataxia with hemiplegia (EA6)."
+    }
+   ],
+   "contradicts": [],
+   "id": "L141"
+  },
+  {
+   "source": "person:joanna-jen",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19364908/",
+     "quote": "Characterized mutational mechanisms in CACNA1A across large ataxia cohorts."
+    }
+   ],
+   "contradicts": [],
+   "id": "L142"
+  },
+  {
+   "source": "person:michael-strupp",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15004139/",
+     "quote": "Pioneered 4-aminopyridine therapeutic efficacy in clinical trials for EA2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L143"
+  },
+  {
+   "source": "person:michael-strupp",
+   "target": "tx:4-aminopyridine",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15004139/",
+     "quote": "Principal investigator running clinical trials of potassium channel blockers in ataxia."
+    }
+   ],
+   "contradicts": [],
+   "id": "L144"
+  },
+  {
+   "source": "person:christopher-gomez",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24074887/",
+     "quote": "Identified the pathogenic bicistronic peptide alpha1ACT driving neurodegeneration in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L145"
+  },
+  {
+   "source": "person:christopher-gomez",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/24074887/",
+     "quote": "Studied cellular regulation and translation of the CACNA1A transcript."
+    }
+   ],
+   "contradicts": [],
+   "id": "L146"
+  },
+  {
+   "source": "person:christopher-gomez",
+   "target": "NCT01060371",
+   "type": "investigates",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01060371",
+     "quote": "Steering committee member for the Clinical Research Consortium for Spinocerebellar Ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L147"
+  },
+  {
+   "source": "person:wendy-chung",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "observed",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1388",
+     "quote": "Lead investigator directing the natural history study of CACNA1A-related disorders."
+    }
+   ],
+   "contradicts": [],
+   "id": "L148"
+  },
+  {
+   "source": "person:wendy-chung",
+   "target": "OMIM:617106",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/33246834/",
+     "quote": "Clinical genetics research in severe childhood CACNA1A neurodevelopmental phenotypes."
+    }
+   ],
+   "contradicts": [],
+   "id": "L149"
+  },
+  {
+   "source": "person:wendy-chung",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "observed",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT05168800",
+     "quote": "Evaluating phenotypic spectrum spanning mild episodic ataxia to severe encephalopathy."
+    }
+   ],
+   "contradicts": [],
+   "id": "L150"
+  },
+  {
+   "source": "person:wendy-chung",
+   "target": "asset:cacna1a-natural-history-study",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.9,
+   "evidence": [
+    {
+     "source": "CACNA1A Foundation",
+     "url": "https://www.cacna1a.org/participate-research",
+     "quote": "the CACNA1A Foundation has developed a comprehensive Natural History Study in collaboration with Dr. Wendy Chung and her team at Boston Children's Hospital to understand CACNA1A-related disorders."
+    }
+   ],
+   "contradicts": [],
+   "id": "L151"
+  },
+  {
+   "source": "person:daniela-pietrobon",
+   "target": "OMIM:141500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17967913/",
+     "quote": "Pioneering cellular electrophysiology elucidating Cav2.1 gating and cortical spreading depression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L152"
+  },
+  {
+   "source": "person:daniela-pietrobon",
+   "target": "mech:gain-of-function",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17967913/",
+     "quote": "Characterized single-channel gating and glutamate release in Cav2.1 mutant synapses."
+    }
+   ],
+   "contradicts": [],
+   "id": "L153"
+  },
+  {
+   "source": "person:daniela-pietrobon",
+   "target": "mech:cortical-spreading-depression",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/17967913/",
+     "quote": "Elucidated synaptic release mechanism triggering cortical spreading depression waves."
+    }
+   ],
+   "contradicts": [],
+   "id": "L154"
+  },
+  {
+   "source": "person:robert-baloh",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8934531/",
+     "quote": "Seminal clinical descriptions of episodic ataxia families and acetazolamide response."
+    }
+   ],
+   "contradicts": [],
+   "id": "L155"
+  },
+  {
+   "source": "person:robert-baloh",
+   "target": "OMIM:160120",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12702710/",
+     "quote": "Clinical neurotology characterization of paroxysmal vestibulocerebellar syndromes."
+    }
+   ],
+   "contradicts": [],
+   "id": "L156"
+  },
+  {
+   "source": "person:thomas-klockgether",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Coordinator of EUROSCA consortium evaluating natural history and progression in SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L157"
+  },
+  {
+   "source": "person:thomas-klockgether",
+   "target": "OMIM:164400",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Longitudinal SARA score progression tracking in SCA1 cohorts."
+    }
+   ],
+   "contradicts": [],
+   "id": "L158"
+  },
+  {
+   "source": "person:thomas-klockgether",
+   "target": "OMIM:183090",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Longitudinal progression tracking in European SCA2 cohorts."
+    }
+   ],
+   "contradicts": [],
+   "id": "L159"
+  },
+  {
+   "source": "person:thomas-klockgether",
+   "target": "OMIM:109150",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Natural history analysis of SCA3 Machado-Joseph disease patients."
+    }
+   ],
+   "contradicts": [],
+   "id": "L160"
+  },
+  {
+   "source": "person:stefan-pulst",
+   "target": "OMIM:183090",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Discovered ATXN2 gene mutation and directs antisense oligonucleotide development for SCAs."
+    }
+   ],
+   "contradicts": [],
+   "id": "L161"
+  },
+  {
+   "source": "person:stefan-pulst",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.92,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21330775/",
+     "quote": "Researches cerebellar Purkinje cell pacemaking channels across degenerative ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L162"
+  },
+  {
+   "source": "person:stefan-pulst",
+   "target": "NCT01060371",
+   "type": "investigates",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01060371",
+     "quote": "Investigator in the Clinical Research Consortium for Spinocerebellar Ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L163"
+  },
+  {
+   "source": "PMID:8898206",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8898206/",
+     "quote": "Familial hemiplegic migraine and episodic ataxia type-2 are caused by mutations in the Ca2+ channel gene CACNL1A4."
+    }
+   ],
+   "contradicts": [],
+   "id": "L164"
+  },
+  {
+   "source": "PMID:8898206",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8898206/",
+     "quote": "Familial hemiplegic migraine and episodic ataxia type-2 are caused by mutations in the Ca2+ channel gene CACNL1A4."
+    }
+   ],
+   "contradicts": [],
+   "id": "L165"
+  },
+  {
+   "source": "PMID:8898206",
+   "target": "OMIM:141500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8898206/",
+     "quote": "Familial hemiplegic migraine and episodic ataxia type-2 are caused by mutations in the Ca2+ channel gene CACNL1A4."
+    }
+   ],
+   "contradicts": [],
+   "id": "L166"
+  },
+  {
+   "source": "PMID:8988170",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8988170/",
+     "quote": "Autosomal dominant cerebellar ataxia (SCA6) associated with small polyglutamine expansions in the alpha 1A-voltage-dependent calcium channel."
+    }
+   ],
+   "contradicts": [],
+   "id": "L167"
+  },
+  {
+   "source": "PMID:8988170",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/8988170/",
+     "quote": "Autosomal dominant cerebellar ataxia (SCA6) associated with small polyglutamine expansions in the alpha 1A-voltage-dependent calcium channel."
+    }
+   ],
+   "contradicts": [],
+   "id": "L168"
+  },
+  {
+   "source": "PMID:15003170",
+   "target": "asset:r192q-knockin-mouse",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15003170/",
+     "quote": "A Cacna1a knockin migraine mouse model with increased susceptibility to cortical spreading depression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L169"
+  },
+  {
+   "source": "PMID:15003170",
+   "target": "ClinVar:8487",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15003170/",
+     "quote": "A Cacna1a knockin migraine mouse model with increased susceptibility to cortical spreading depression."
+    }
+   ],
+   "contradicts": [],
+   "id": "L170"
+  },
+  {
+   "source": "PMID:15136697",
+   "target": "tx:4-aminopyridine",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15136697/",
+     "quote": "Treatment of episodic ataxia type 2 with the potassium channel blocker 4-aminopyridine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L171"
+  },
+  {
+   "source": "PMID:15136697",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15136697/",
+     "quote": "Treatment of episodic ataxia type 2 with the potassium channel blocker 4-aminopyridine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L172"
+  },
+  {
+   "source": "PMID:23827678",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23827678/",
+     "quote": "Second cistron in CACNA1A gene encodes a transcription factor mediating cerebellar development and SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L173"
+  },
+  {
+   "source": "PMID:23827678",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/23827678/",
+     "quote": "Second cistron in CACNA1A gene encodes a transcription factor mediating cerebellar development and SCA6."
+    }
+   ],
+   "contradicts": [],
+   "id": "L174"
+  },
+  {
+   "source": "PMID:41775907",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41775907/",
+     "quote": "Genotype and Age at Onset Drive Vermis Atrophy in CACNA1A- and GAA-FGF14-related Ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L175"
+  },
+  {
+   "source": "PMID:41775907",
+   "target": "OMIM:108500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41775907/",
+     "quote": "Genotype and Age at Onset Drive Vermis Atrophy in CACNA1A- and GAA-FGF14-related Ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L176"
+  },
+  {
+   "source": "PMID:41775907",
+   "target": "OMIM:141500",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/41775907/",
+     "quote": "Genotype and Age at Onset Drive Vermis Atrophy in CACNA1A- and GAA-FGF14-related Ataxias."
+    }
+   ],
+   "contradicts": [],
+   "id": "L177"
+  },
+  {
+   "source": "PMID:37555011",
+   "target": "OMIM:617106",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37555011/",
+     "quote": "The genotype-phenotype correlations of the CACNA1A-related neurodevelopmental disorders: a small case series and literature reviews."
+    }
+   ],
+   "contradicts": [],
+   "id": "L178"
+  },
+  {
+   "source": "PMID:37555011",
+   "target": "HGNC:1388",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37555011/",
+     "quote": "The genotype-phenotype correlations of the CACNA1A-related neurodevelopmental disorders: a small case series and literature reviews."
+    }
+   ],
+   "contradicts": [],
+   "id": "L179"
+  },
+  {
+   "source": "PMID:19285472",
+   "target": "mech:cortical-spreading-depression",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.98,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/19285472/",
+     "quote": "Enhanced excitatory transmission at cortical synapses as the basis for facilitated spreading depression in Ca(v)2.1 knockin migraine mice."
+    }
+   ],
+   "contradicts": [],
+   "id": "L180"
+  },
+  {
+   "source": "PMID:12539047",
+   "target": "HGNC:800",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12539047/",
+     "quote": "Haploinsufficiency of ATP1A2 encoding the Na+/K+ pump alpha2 subunit associated with familial hemiplegic migraine type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L181"
+  },
+  {
+   "source": "PMID:12539047",
+   "target": "OMIM:602481",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12539047/",
+     "quote": "Haploinsufficiency of ATP1A2 encoding the Na+/K+ pump alpha2 subunit associated with familial hemiplegic migraine type 2."
+    }
+   ],
+   "contradicts": [],
+   "id": "L182"
+  },
+  {
+   "source": "PMID:16054936",
+   "target": "HGNC:10585",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16054936/",
+     "quote": "Mutation in the neuronal voltage-gated sodium channel SCN1A in familial hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L183"
+  },
+  {
+   "source": "PMID:16054936",
+   "target": "OMIM:609634",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16054936/",
+     "quote": "Mutation in the neuronal voltage-gated sodium channel SCN1A in familial hemiplegic migraine."
+    }
+   ],
+   "contradicts": [],
+   "id": "L184"
+  },
+  {
+   "source": "PMID:7842011",
+   "target": "HGNC:6218",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7842011/",
+     "quote": "Episodic ataxia/myokymia syndrome is associated with point mutations in the human potassium channel gene, KCNA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L185"
+  },
+  {
+   "source": "PMID:7842011",
+   "target": "OMIM:160120",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7842011/",
+     "quote": "Episodic ataxia/myokymia syndrome is associated with point mutations in the human potassium channel gene, KCNA1."
+    }
+   ],
+   "contradicts": [],
+   "id": "L186"
+  },
+  {
+   "source": "PMID:16116111",
+   "target": "HGNC:10941",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16116111/",
+     "quote": "Mutation in the glutamate transporter EAAT1 causes episodic ataxia, hemiplegia, and seizures."
+    }
+   ],
+   "contradicts": [],
+   "id": "L187"
+  },
+  {
+   "source": "PMID:16116111",
+   "target": "OMIM:612656",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/16116111/",
+     "quote": "Mutation in the glutamate transporter EAAT1 causes episodic ataxia, hemiplegia, and seizures."
+    }
+   ],
+   "contradicts": [],
+   "id": "L188"
+  },
+  {
+   "source": "PMID:26377379",
+   "target": "OMIM:183086",
+   "type": "investigates",
+   "status": "extracted",
+   "confidence": 0.99,
+   "evidence": [
+    {
+     "source": "PubMed",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26377379/",
+     "quote": "Long-term disease progression in spinocerebellar ataxia types 1, 2, 3, and 6: a longitudinal cohort study."
+    }
+   ],
+   "contradicts": [],
+   "id": "L189"
+  },
+  {
+   "source": "person:joanna-jen",
+   "target": "NCT01543750",
+   "type": "investigates",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT01543750",
+     "quote": "Joanna C Jen, MD PhD · University of California, Los Angeles · PRINCIPAL_INVESTIGATOR"
+    }
+   ],
+   "contradicts": [],
+   "id": "L190"
+  },
+  {
+   "source": "NCT07221292",
+   "target": "OMIM:183086",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT07221292",
+     "quote": "Conditions: CACNA1A, Spinocerebellar Ataxia Type 6, Episodic Ataxia Type 2, Familial Hemiplegic Migraine-1"
+    }
+   ],
+   "contradicts": [],
+   "id": "L191"
+  },
+  {
+   "source": "NCT07221292",
+   "target": "OMIM:108500",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT07221292",
+     "quote": "Conditions: CACNA1A, Spinocerebellar Ataxia Type 6, Episodic Ataxia Type 2, Familial Hemiplegic Migraine-1"
+    }
+   ],
+   "contradicts": [],
+   "id": "L192"
+  },
+  {
+   "source": "NCT07221292",
+   "target": "OMIM:141500",
+   "type": "trial_for",
+   "status": "observed",
+   "confidence": 0.95,
+   "evidence": [
+    {
+     "source": "ClinicalTrials.gov",
+     "url": "https://clinicaltrials.gov/study/NCT07221292",
+     "quote": "Conditions: CACNA1A, Spinocerebellar Ataxia Type 6, Episodic Ataxia Type 2, Familial Hemiplegic Migraine-1"
+    }
+   ],
+   "contradicts": [],
+   "id": "L193"
+  }
+ ]
+}

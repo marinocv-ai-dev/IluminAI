@@ -1,0 +1,393 @@
+{
+  "generated": "2026-10-04",
+  "count": 43,
+  "items": [
+    {
+      "source": "tx:acetazolamide",
+      "source_label": "Acetazolamide",
+      "type": "treats",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8898206/"
+    },
+    {
+      "source": "tx:acetazolamide",
+      "source_label": "Acetazolamide",
+      "type": "treats",
+      "target": "OMIM:160120",
+      "target_label": "Episodic Ataxia Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/7842011/"
+    },
+    {
+      "source": "tx:acetazolamide",
+      "source_label": "Acetazolamide",
+      "type": "treats",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "tx:acetazolamide",
+      "source_label": "Acetazolamide",
+      "type": "treats",
+      "target": "HP:0002131",
+      "target_label": "Episodic ataxia",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8898206/"
+    },
+    {
+      "source": "tx:flunarizine",
+      "source_label": "Flunarizine",
+      "type": "treats",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "tx:lamotrigine",
+      "source_label": "Lamotrigine",
+      "type": "treats",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "tx:levetiracetam",
+      "source_label": "Levetiracetam",
+      "type": "treats",
+      "target": "OMIM:617106",
+      "target_label": "Developmental and Epileptic Encephalopathy 42",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "tx:levetiracetam",
+      "source_label": "Levetiracetam",
+      "type": "treats",
+      "target": "HP:0001250",
+      "target_label": "Seizure",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "tx:sodium-valproate",
+      "source_label": "Sodium Valproate",
+      "type": "treats",
+      "target": "OMIM:617106",
+      "target_label": "Developmental and Epileptic Encephalopathy 42",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "tx:sodium-valproate",
+      "source_label": "Sodium Valproate",
+      "type": "treats",
+      "target": "HP:0001250",
+      "target_label": "Seizure",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "tx:topiramate",
+      "source_label": "Topiramate",
+      "type": "treats",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "tx:verapamil",
+      "source_label": "Verapamil",
+      "type": "treats",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "asset:rolling-nagoya-mouse",
+      "source_label": "Rolling Nagoya Mouse Model (Cacna1a tg-rol)",
+      "type": "model_of",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8898206/"
+    },
+    {
+      "source": "asset:s218l-knockin-mouse",
+      "source_label": "S218L Knock-in Mouse Model",
+      "type": "model_of",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    },
+    {
+      "source": "person:arn-van-den-maagdenberg",
+      "source_label": "Arn M.J.M. van den Maagdenberg",
+      "type": "investigates",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    },
+    {
+      "source": "person:arn-van-den-maagdenberg",
+      "source_label": "Arn M.J.M. van den Maagdenberg",
+      "type": "investigates",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8898206/"
+    },
+    {
+      "source": "person:arn-van-den-maagdenberg",
+      "source_label": "Arn M.J.M. van den Maagdenberg",
+      "type": "investigates",
+      "target": "HGNC:1388",
+      "target_label": "CACNA1A",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    },
+    {
+      "source": "person:arn-van-den-maagdenberg",
+      "source_label": "Arn M.J.M. van den Maagdenberg",
+      "type": "investigates",
+      "target": "asset:r192q-knockin-mouse",
+      "target_label": "R192Q Knock-in Mouse Model",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    },
+    {
+      "source": "person:arn-van-den-maagdenberg",
+      "source_label": "Arn M.J.M. van den Maagdenberg",
+      "type": "investigates",
+      "target": "asset:s218l-knockin-mouse",
+      "target_label": "S218L Knock-in Mouse Model",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    },
+    {
+      "source": "person:christopher-gomez",
+      "source_label": "Christopher M. Gomez",
+      "type": "investigates",
+      "target": "OMIM:183086",
+      "target_label": "Spinocerebellar Ataxia Type 6",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23827678/"
+    },
+    {
+      "source": "person:christopher-gomez",
+      "source_label": "Christopher M. Gomez",
+      "type": "investigates",
+      "target": "HGNC:1388",
+      "target_label": "CACNA1A",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23827678/"
+    },
+    {
+      "source": "person:daniela-pietrobon",
+      "source_label": "Daniela Pietrobon",
+      "type": "investigates",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19285472/"
+    },
+    {
+      "source": "person:daniela-pietrobon",
+      "source_label": "Daniela Pietrobon",
+      "type": "investigates",
+      "target": "mech:gain-of-function",
+      "target_label": "Cav2.1 Gain of Function",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19285472/"
+    },
+    {
+      "source": "person:daniela-pietrobon",
+      "source_label": "Daniela Pietrobon",
+      "type": "investigates",
+      "target": "mech:cortical-spreading-depression",
+      "target_label": "Cortical Spreading Depression",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19285472/"
+    },
+    {
+      "source": "PMID:41775907",
+      "source_label": "Indelicato & Boesch 2026 (Cerebellum)",
+      "type": "investigates",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "PMID:41775907",
+      "source_label": "Indelicato & Boesch 2026 (Cerebellum)",
+      "type": "investigates",
+      "target": "OMIM:141500",
+      "target_label": "Familial Hemiplegic Migraine Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41775907/"
+    },
+    {
+      "source": "person:joanna-jen",
+      "source_label": "Joanna C. Jen",
+      "type": "investigates",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16116111/"
+    },
+    {
+      "source": "person:joanna-jen",
+      "source_label": "Joanna C. Jen",
+      "type": "investigates",
+      "target": "OMIM:612656",
+      "target_label": "Episodic Ataxia Type 6",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16116111/"
+    },
+    {
+      "source": "person:joanna-jen",
+      "source_label": "Joanna C. Jen",
+      "type": "investigates",
+      "target": "HGNC:1388",
+      "target_label": "CACNA1A",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16116111/"
+    },
+    {
+      "source": "PMID:37555011",
+      "source_label": "Kessi et al. 2023 (Front Mol Neurosci)",
+      "type": "investigates",
+      "target": "OMIM:617106",
+      "target_label": "Developmental and Epileptic Encephalopathy 42",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "person:michael-strupp",
+      "source_label": "Michael Strupp",
+      "type": "investigates",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15136697/"
+    },
+    {
+      "source": "person:michael-strupp",
+      "source_label": "Michael Strupp",
+      "type": "investigates",
+      "target": "tx:4-aminopyridine",
+      "target_label": "4-Aminopyridine",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15136697/"
+    },
+    {
+      "source": "person:robert-baloh",
+      "source_label": "Robert W. Baloh",
+      "type": "investigates",
+      "target": "OMIM:108500",
+      "target_label": "Episodic Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/8898206/"
+    },
+    {
+      "source": "person:robert-baloh",
+      "source_label": "Robert W. Baloh",
+      "type": "investigates",
+      "target": "OMIM:160120",
+      "target_label": "Episodic Ataxia Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/7842011/"
+    },
+    {
+      "source": "person:stefan-pulst",
+      "source_label": "Stefan M. Pulst",
+      "type": "investigates",
+      "target": "OMIM:183090",
+      "target_label": "Spinocerebellar Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:stefan-pulst",
+      "source_label": "Stefan M. Pulst",
+      "type": "investigates",
+      "target": "OMIM:183086",
+      "target_label": "Spinocerebellar Ataxia Type 6",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:thomas-klockgether",
+      "source_label": "Thomas Klockgether",
+      "type": "investigates",
+      "target": "OMIM:183086",
+      "target_label": "Spinocerebellar Ataxia Type 6",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:thomas-klockgether",
+      "source_label": "Thomas Klockgether",
+      "type": "investigates",
+      "target": "OMIM:164400",
+      "target_label": "Spinocerebellar Ataxia Type 1",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:thomas-klockgether",
+      "source_label": "Thomas Klockgether",
+      "type": "investigates",
+      "target": "OMIM:183090",
+      "target_label": "Spinocerebellar Ataxia Type 2",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:thomas-klockgether",
+      "source_label": "Thomas Klockgether",
+      "type": "investigates",
+      "target": "OMIM:109150",
+      "target_label": "Machado-Joseph Disease (SCA3)",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/"
+    },
+    {
+      "source": "person:wendy-chung",
+      "source_label": "Wendy K. Chung",
+      "type": "investigates",
+      "target": "OMIM:617106",
+      "target_label": "Developmental and Epileptic Encephalopathy 42",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37555011/"
+    },
+    {
+      "source": "mech:glutamate-clearance-failure",
+      "source_label": "Glutamate Clearance Impairment",
+      "type": "disrupts",
+      "target": "mech:cortical-spreading-depression",
+      "target_label": "Cortical Spreading Depression",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12539047/"
+    },
+    {
+      "source": "ClinVar:8504",
+      "source_label": "CACNA1A c.653C>T (p.Ser218Leu)",
+      "type": "variant_effect",
+      "target": "mech:gain-of-function",
+      "target_label": "Cav2.1 Gain of Function",
+      "reason": "Cited abstract does not support this claim",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15003170/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+LABEL DIF HGNC:807         grafo: ATP1A2                                        | oficial: ATP1B3P1
+LABEL DIF HGNC:10582       grafo: SCN1A                                         | oficial: SCN10A
+LABEL DIF HGNC:6220        grafo: KCNA1                                         | oficial: KCNA2
+LABEL DIF HGNC:11001       grafo: SLC1A3                                        | oficial: SLC28A1
+LABEL DIF HGNC:795         grafo: ATXN1                                         | oficial: ATM
+NO EXISTE HGNC:796         grafo: ATXN2                                         | oficial: -
+LABEL DIF HGNC:797         grafo: ATXN3                                         | oficial: ATOH1
+LABEL DIF HGNC:798         grafo: ATXN7                                         | oficial: ATOX1
+LABEL DIF HP:0002072       grafo: Episodic ataxia                               | oficial: Chorea
+LABEL DIF HP:0001310       grafo: Nystagmus                                     | oficial: Dysmetria
+LABEL DIF HP:0012735       grafo: Cerebral edema                                | oficial: Cough
+LABEL DIF HP:0002322       grafo: Vertigo                                       | oficial: Resting tremor
+LABEL DIF HP:0001321       grafo: Cerebellar atrophy                            | oficial: Cerebellar hypoplasia
+LABEL DIF NCT05168800      grafo: Natural History of CACNA1A-Related Disorders  | oficial: CONFIDENT: Supporting Long-term Care Workers During COVID-19
+LABEL DIF NCT00004732      grafo: 4-Aminopyridine in Episodic Ataxia Type 2 (NC | oficial: Carotid Revascularization Endarterectomy Versus Stenting Trial
+LABEL DIF NCT00707928      grafo: Acetazolamide vs 4-Aminopyridine in Episodic  | oficial: Intravenous Nitroglycerin for Retained Placenta Extraction: a Multicen
+LABEL DIF NCT03408379      grafo: Troriluzole (BHV-4157) in Spinocerebellar Ata | oficial: Impact of Platelet Activation in Intracranial Aneurysm Rupture Risk - 
+LABEL DIF NCT02580578      grafo: Aminopyridines in Downbeat Nystagmus and Cere | oficial: A Multicenter Prospective Non-Interventional Study Assessing the Manag
+LABEL DIF NCT01140607      grafo: Clinical Research Consortium for Spinocerebel | oficial: Safety and Pharmacokinetic Study of Cabazitaxel in Patients With Advan
+LABEL DIF PMID:8934531     grafo: Ophoff et al. 1996 (Cell)                     | oficial: ECA39 is regulated by c-Myc in human and by a Jun/Fos homolog, Gcn4, i
+LABEL DIF PMID:8988179     grafo: Zhuchenko et al. 1997 (Nat Genet)             | oficial: Variation of risks of breast and ovarian cancer associated with differ
+LABEL DIF PMID:14999285    grafo: van den Maagdenberg et al. 2004 (Neuron)      | oficial: microRNA-mediated repression of rolled leaf1 specifies maize leaf pola
+LABEL DIF PMID:15004139    grafo: Strupp et al. 2004 (Neurology)                | oficial: Murine CD93 (C1qRp) contributes to the removal of apoptotic cells in v
+LABEL DIF PMID:24074887    grafo: Du et al. 2013 (Cell)                         | oficial: Induction of a sense of bliss by electrical stimulation of the anterio
+LABEL DIF PMID:29780183    grafo: Indelicato & Boesch 2018 (Expert Opin)        | oficial: Sobralene, a new sex-aggregation pheromone and likely shunt metabolite
+LABEL DIF PMID:33246834    grafo: Kessi et al. 2021 (Front Cell Neurosci)       | oficial: Corrigendum to "Power spectral densities of nocturnal pulse oximetry s
+LABEL DIF PMID:17967913    grafo: Tottene et al. 2009 (J Neurosci)              | oficial: Human immunodeficiency virus types 1 and 2 exhibit comparable sensitiv
+LABEL DIF PMID:11867768    grafo: De Fusco et al. 2003 (Nat Genet)              | oficial: Phosphatidylinositol 4,5-bisphosphate stimulates vesicle formation fro
+LABEL DIF PMID:16141073    grafo: Dichgans et al. 2005 (Lancet)                 | oficial: Antisense transcription in the mammalian transcriptome. Katayama S 200
+LABEL DIF PMID:12702710    grafo: Browne et al. 1994 (Nat Genet)                | oficial: Differential gurmarin suppression of sweet taste responses in rat soli
+LABEL DIF PMID:19364908    grafo: Jen et al. 2005 (Neurology)                   | oficial: A receptor mechanism for methamphetamine action in dopamine transporte
+LABEL DIF PMID:21330775    grafo: Klockgether 2011 (Lancet Neurol)              | oficial: [Changes of medico-pharmaceutical profession and private practice from
+LABEL DIF PMID:15371536    grafo: Al-Twaijri & Shevell 2002 (Pediatr Neurol)    | oficial: Drosophila citron kinase is required for the final steps of cytokinesi
+LABEL DIF ClinVar:42247    grafo: CACNA1A c.574C>T (p.Arg192Gln)                | oficial: NM_000038.6(APC):c.5880G>A (p.Pro1960=)  
+LABEL DIF ClinVar:42248    grafo: CACNA1A c.653C>T (p.Ser218Leu)                | oficial: NM_000038.6(APC):c.694C>T (p.Arg232Ter)  
+LABEL DIF ClinVar:42249    grafo: CACNA1A c.1997C>T (p.Thr666Met)               | oficial: NM_000038.6(APC):c.7201C>T (p.Leu2401=)  
+LABEL DIF ClinVar:14068    grafo: CACNA1A c.4072C>T (p.Arg1358Ter)              | oficial: NM_000432.4(MYL2):c.52T>C (p.Phe18Leu)  
+LABEL DIF ClinVar:14067    grafo: CACNA1A c.3797G>A (p.Arg1266Gln)              | oficial: NM_000432.4(MYL2):c.173G>A (p.Arg58Gln)  
+LABEL DIF ClinVar:42250    grafo: CACNA1A c.4367G>A (p.Arg1456His)              | oficial: NM_000038.6(APC):c.7704A>G (p.Gly2568=)  
+LABEL DIF ClinVar:253335   grafo: CACNA1A c.3989G>A (p.Arg1330Gln)              | oficial: GRCh37/hg19 2q23.1(chr2:148957572-149027461)x1  
+LABEL DIF ClinVar:208573   grafo: CACNA1A c.4997G>A (p.Arg1666His)              | oficial: NM_001277115.2(DNAH11):c.7508_7509insTTG (p.Gly2503_Lys2504insTer)  
+OK        HGNC:1388        grafo: CACNA1A                                       | oficial: CACNA1A
+OK        HGNC:1404        grafo: CACNB4                                        | oficial: CACNB4
+OK        HGNC:1389        grafo: CACNA1B                                       | oficial: CACNA1B
+OK        HGNC:1392        grafo: CACNA1E                                       | oficial: CACNA1E
+OK        HP:0001251       grafo: Ataxia                                        | oficial: Ataxia
+OK        HP:0001260       grafo: Dysarthria                                    | oficial: Dysarthria
+OK        HP:0002076       grafo: Migraine with aura                            | oficial: Migraine
+OK        HP:0002301       grafo: Hemiplegia                                    | oficial: Hemiplegia
+OK        HP:0001250       grafo: Seizure                                       | oficial: Seizure
+OK        HP:0001263       grafo: Global developmental delay                    | oficial: Global developmental delay
+OK        HP:0001252       grafo: Hypotonia                                     | oficial: Hypotonia
+OK        HP:0001332       grafo: Dystonia                                      | oficial: Dystonia
+OK        HP:0001257       grafo: Spasticity                                    | oficial: Spasticity
+OK        HP:0000750       grafo: Delayed speech and language development       | oficial: Delayed speech and language development
+OK        HP:0002073       grafo: Progressive cerebellar ataxia                 | oficial: Progressive cerebellar ataxia
+OK        HP:0002315       grafo: Headache                                      | oficial: Headache
+
+57 ids verificados · 41 con problema · sin verificar (OMIM/otros): 58

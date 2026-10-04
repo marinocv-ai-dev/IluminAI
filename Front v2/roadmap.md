@@ -1,0 +1,11 @@
+# Roadmap
+- [x] Estudio IA con Gemini: guía de marca + revisión UI/UX, con cuentas e historial
+- [x] Brand book de IluminAI — estrategia confirmada, perfil guardado y versiones PDF/editable entregadas
+- [x] Brand book de IluminAI en inglés — traducido, validado y entregado en PDF/PPTX
+- [x] Mascota v1 (pareja Gena/Fena) — entregada, luego descartada por el usuario
+- [x] Mascota v2 (nodo / matriz / cápsula) y v3 (hélice / i iluminada / luciérnaga) — descartadas
+- [x] Mascota v4 — tres lenguajes de cara (trazo / anillo / párpado) descartados
+- [x] Mascota v5 — criatura inventada tipo peluche (Farol / Trenza / Dado) entregada y revisada
+- [x] Mascota final elegida y documentada: "Dado visor" con pantalla viva — sistema completo (6 estados, positivo/negativo, SVG) en brand-profile.md; nombre definitivo **Ziva** confirmado
+- [ ] Integraciones de agentes (MCP) — en espera: el usuario no confirmó el tipo de acceso
+- [x] Rediseñar la app como experiencia IluminAI del grafo: bienvenida con Ziva, perfil adaptable, idioma automático y modo familiar/profesional

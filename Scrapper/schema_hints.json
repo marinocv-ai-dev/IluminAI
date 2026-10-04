@@ -1,0 +1,15 @@
+{
+  "joins": [
+    {
+      "left_table": "diseases_mechanisms",
+      "left_column": "disease_id",
+      "right_table": "research_assets",
+      "right_column": "disease_id"
+    }
+  ],
+  "hints": {
+    "diseases_mechanisms.variant_effect": "Distingue 'Loss of Function' de 'Gain of Function'. Mismo gen (CACNA1A) pero estrategias opuestas.",
+    "diseases_mechanisms.mechanism": "Mecanismo biológico. Permite conectar CACNA1A con otros genes de canalopatías como KCNA1.",
+    "research_assets.source_url": "Enlace fuente de la evidencia en ClinicalTrials.gov o la fundación CACNA1A."
+  }
+}
